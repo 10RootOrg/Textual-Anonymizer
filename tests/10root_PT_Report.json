@@ -1,0 +1,195 @@
+{
+  "company_info": {
+    "name": "10root, Inc.",
+    "established": 2020,
+    "headquarters": "1234 Cyber Street, Suite 567, San Francisco, CA 94105",
+    "data_center": "5678 Server Lane, Santa Clara, CA 95051",
+    "domain": "10root.com",
+    "ip_range": "198.51.100.0/24"
+  },
+  "executives": [
+    {
+      "name": "Sarah Johnson",
+      "title": "CTO",
+      "email": "sarah.johnson@10root.com",
+      "phone": "+1-415-555-7890",
+      "employee_id": "EMP-10001"
+    },
+    {
+      "name": "Michael Chen",
+      "title": "CISO",
+      "email": "michael.chen@10root.com",
+      "phone": "+1-415-555-1234",
+      "employee_id": "EMP-10002"
+    },
+    {
+      "name": "David Wilson",
+      "title": "Cloud Architect",
+      "email": "david.wilson@10root.com",
+      "phone": "054-987-6543",
+      "employee_id": "EMP-10003",
+      "api_credentials": {
+        "aws_key": "AKIAxxxxxxxxxxxxxxxxxxx",
+        "aws_secret": "bT9xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      }
+    }
+  ],
+  "web_infrastructure": [
+    {
+      "domain": "www.10root.com",
+      "server_ip": "198.51.100.15",
+      "server_type": "Web Server"
+    },
+    {
+      "domain": "portal.10root.com",
+      "server_ip": "198.51.100.16",
+      "server_type": "Customer Portal"
+    },
+    {
+      "domain": "api.10root.com",
+      "server_ip": "198.51.100.17",
+      "server_type": "API Gateway",
+      "test_credentials": {
+        "username": "api_test_user@10root.com",
+        "password": "Test_Api_2025!",
+        "api_key": "29af7989-4c76-4832-b522-3ce8944a2ce1"
+      }
+    },
+    {
+      "domain": "admin.10root.com",
+      "server_ip": "198.51.100.18",
+      "server_type": "Admin Portal"
+    },
+    {
+      "domain": "support.10root.com",
+      "server_ip": "198.51.100.19",
+      "server_type": "Support System"
+    }
+  ],
+  "clients": [
+    {
+      "name": "Acme Corp",
+      "contact": "John Smith",
+      "email": "john.smith@acme.com",
+      "phone": "+1-312-555-5678",
+      "subscription": "Enterprise",
+      "billing": {
+        "credit_card": "4111 1111 1111 1111",
+        "expiry": "12/26",
+        "amount": 50000
+      }
+    },
+    {
+      "name": "TechSolutions Inc.",
+      "contact": "Mary Johnson",
+      "email": "mjohnson@techsolutions.net",
+      "phone": "+1-212-555-9012",
+      "subscription": "Premium",
+      "billing": {
+        "credit_card": "5555 5555 5555 4444",
+        "expiry": "10/27",
+        "amount": 35000
+      }
+    },
+    {
+      "name": "GlobalTech Co.",
+      "contact": "James Peterson",
+      "email": "james.peterson@globaltech.com",
+      "phone": "+1-312-555-8765",
+      "subscription": "Enterprise",
+      "billing": {
+        "credit_card": "3782 8224 6310 005",
+        "expiry": "08/25",
+        "amount": 250000
+      },
+      "contract_id": "CONT-2025-03-0123"
+    },
+    {
+      "name": "SecureCorp",
+      "contact": "Lisa Miller",
+      "email": "lmiller@securecorp.net",
+      "phone": "+1-212-555-1122",
+      "subscription": "Premium",
+      "billing": {
+        "credit_card": "6011 0009 9013 9424",
+        "expiry": "05/26",
+        "amount": 175000
+      },
+      "contract_id": "CONT-2025-02-0456"
+    }
+  ],
+  "security_issues": [
+    {
+      "id": "VULN-2025-001",
+      "description": "Exposed API Credentials in GitHub",
+      "severity": "Critical",
+      "affected_system": "AWS Infrastructure",
+      "remediation_status": "In Progress"
+    },
+    {
+      "id": "VULN-2025-002",
+      "description": "Session Fixation in Customer Portal",
+      "severity": "Critical",
+      "affected_system": "portal.10root.com",
+      "remediation_status": "Pending"
+    },
+    {
+      "id": "VULN-2025-003",
+      "description": "SQL Injection in API Endpoint",
+      "severity": "High",
+      "affected_system": "api.10root.com/v1/customers/search",
+      "remediation_status": "Pending"
+    },
+    {
+      "id": "VULN-2025-004",
+      "description": "Insecure Direct Object References",
+      "severity": "Medium",
+      "affected_system": "support.10root.com",
+      "remediation_status": "Pending"
+    },
+    {
+      "id": "VULN-2025-005",
+      "description": "Missing MFA for Admin Access",
+      "severity": "Medium",
+      "affected_system": "Admin Accounts",
+      "remediation_status": "Planned"
+    },
+    {
+      "id": "VULN-2025-006",
+      "description": "Sensitive Data on Public S3 Bucket",
+      "severity": "Medium",
+      "affected_system": "s3://10root-customer-backup/",
+      "remediation_status": "In Progress"
+    }
+  ],
+  "admin_accounts": [
+    {
+      "name": "John Adams",
+      "role": "IT Admin",
+      "email": "john.adams@10root.com",
+      "phone": "+1-415-555-2001",
+      "mfa_enabled": false
+    },
+    {
+      "name": "Elena Rodriguez",
+      "role": "Database Admin",
+      "email": "elena.rodriguez@10root.com",
+      "phone": "+1-415-555-2002",
+      "mfa_enabled": false
+    },
+    {
+      "name": "Terry Zhang",
+      "role": "Systems Admin",
+      "email": "terry.zhang@10root.com",
+      "phone": "+1-415-555-2003",
+      "mfa_enabled": false
+    },
+    {
+      "name": "Alex Washington",
+      "role": "Security Admin",
+      "email": "alex.washington@10root.com",
+      "phone": "+1-415-555-2004",
+      "mfa_enabled": false
+    }
+  ]
+}

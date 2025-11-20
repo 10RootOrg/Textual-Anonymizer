@@ -1,0 +1,16 @@
+2025-05-19 11:33:44,985 - INFO - Starting company information censor
+2025-05-19 11:33:44,986 - DEBUG - Log file created at: C:\Users\Nof\Desktop\Anonimizer\logs\censor_20250519_113344.log
+2025-05-19 11:33:44,986 - INFO - Loading configuration
+2025-05-19 11:33:44,986 - DEBUG - Loading config from: C:\Users\Nof\Desktop\Anonimizer\config.json5
+2025-05-19 11:33:44,990 - DEBUG - Config loaded: 1 keywords, type: ['regex', 'offline_model']
+2025-05-19 11:33:44,990 - INFO - Configuration loaded: 1 keywords found
+2025-05-19 11:33:44,991 - DEBUG - Parsing command line arguments
+2025-05-19 11:33:44,995 - INFO - Input file: tests\complex.docx
+2025-05-19 11:33:44,996 - INFO - Output file: output.docx
+2025-05-19 11:33:47,843 - ERROR - Error processing file: name 'process_docx_with_preserving_format' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Nof\Desktop\Anonimizer\helpers\file_handler.py", line 518, in process_file
+    return process_docx_with_preserving_format(input_path, output_path, censor_types, keywords, model_name, logger)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'process_docx_with_preserving_format' is not defined
+2025-05-19 11:33:47,848 - ERROR - Error: name 'process_docx_with_preserving_format' is not defined

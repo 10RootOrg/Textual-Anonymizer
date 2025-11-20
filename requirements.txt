@@ -1,0 +1,10 @@
+# requirements.txt
+json5
+pandas
+openpyxl
+python-docx
+PyPDF2
+pdfminer.six
+spacy
+presidio-analyzer
+presidio-anonymizer

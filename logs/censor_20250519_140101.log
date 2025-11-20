@@ -1,0 +1,256 @@
+2025-05-19 14:01:01,582 - INFO - Starting company information censor
+2025-05-19 14:01:01,583 - DEBUG - Log file created at: C:\Users\Nof\Desktop\Anonimizer\logs\censor_20250519_140101.log
+2025-05-19 14:01:01,583 - INFO - Loading configuration
+2025-05-19 14:01:01,583 - DEBUG - Loading config from: C:\Users\Nof\Desktop\Anonimizer\config.json5
+2025-05-19 14:01:01,590 - DEBUG - Config loaded: 1 keywords, type: ['regex', 'offline_model']
+2025-05-19 14:01:01,591 - INFO - Configuration loaded: 1 keywords found
+2025-05-19 14:01:01,591 - DEBUG - Parsing command line arguments
+2025-05-19 14:01:01,592 - INFO - Input file: tests\complex.docx
+2025-05-19 14:01:01,592 - INFO - Output file: output.docx
+2025-05-19 14:01:01,592 - INFO - Processing DOCX file with format preservation: tests\complex.docx
+2025-05-19 14:01:01,610 - INFO - Applying censoring method: regex
+2025-05-19 14:01:01,612 - INFO - Beginning text censoring
+2025-05-19 14:01:01,612 - DEBUG - Censoring company names
+2025-05-19 14:01:01,613 - DEBUG - Censoring email addresses
+2025-05-19 14:01:01,613 - DEBUG - Censoring domain names
+2025-05-19 14:01:01,613 - DEBUG - Censoring API keys and secrets
+2025-05-19 14:01:01,614 - DEBUG - Censoring credit card numbers
+2025-05-19 14:01:01,616 - DEBUG - Censoring monetary values
+2025-05-19 14:01:01,618 - DEBUG - Censoring phone numbers
+2025-05-19 14:01:01,620 - DEBUG - Censoring ID numbers
+2025-05-19 14:01:01,621 - DEBUG - Censoring IP addresses
+2025-05-19 14:01:01,622 - DEBUG - Censoring physical addresses
+2025-05-19 14:01:01,624 - DEBUG - Censoring dates
+2025-05-19 14:01:01,626 - DEBUG - Censoring passwords and tokens
+2025-05-19 14:01:01,627 - INFO - Censoring complete: 0 replacements made
+2025-05-19 14:01:01,627 - DEBUG - Text length change: 81 -> 81 (0 diff)
+2025-05-19 14:01:01,627 - INFO - Applying censoring method: offline_model
+2025-05-19 14:01:03,032 - INFO - Beginning text censoring with spaCy
+2025-05-19 14:01:03,033 - INFO - Checking for model en_core_web_lg in C:\Users\Nof\Desktop\Anonimizer\models
+2025-05-19 14:01:03,033 - INFO - Model found in custom location: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 14:01:07,286 - INFO - Censoring complete: 2 replacements made
+2025-05-19 14:01:07,286 - INFO -   - ORG: 2 replacements
+2025-05-19 14:01:07,293 - INFO - Applying censoring method: regex
+2025-05-19 14:01:07,293 - INFO - Beginning text censoring
+2025-05-19 14:01:07,294 - DEBUG - Censoring company names
+2025-05-19 14:01:07,294 - DEBUG - Censoring email addresses
+2025-05-19 14:01:07,294 - DEBUG - Censoring domain names
+2025-05-19 14:01:07,294 - DEBUG - Censoring API keys and secrets
+2025-05-19 14:01:07,294 - DEBUG - Censoring credit card numbers
+2025-05-19 14:01:07,294 - DEBUG - Censoring monetary values
+2025-05-19 14:01:07,294 - DEBUG - Censoring phone numbers
+2025-05-19 14:01:07,294 - DEBUG - Censoring ID numbers
+2025-05-19 14:01:07,294 - DEBUG - Censoring IP addresses
+2025-05-19 14:01:07,294 - DEBUG - Censoring physical addresses
+2025-05-19 14:01:07,294 - DEBUG - Censoring dates
+2025-05-19 14:01:07,294 - DEBUG - Censoring passwords and tokens
+2025-05-19 14:01:07,294 - INFO - Censoring complete: 0 replacements made
+2025-05-19 14:01:07,294 - DEBUG - Text length change: 37 -> 37 (0 diff)
+2025-05-19 14:01:07,294 - INFO - Applying censoring method: offline_model
+2025-05-19 14:01:07,294 - INFO - Beginning text censoring with spaCy
+2025-05-19 14:01:07,295 - INFO - Checking for model en_core_web_lg in C:\Users\Nof\Desktop\Anonimizer\models
+2025-05-19 14:01:07,295 - INFO - Model found in custom location: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 14:01:11,499 - INFO - Censoring complete: 2 replacements made
+2025-05-19 14:01:11,500 - INFO -   - ORG: 1 replacements
+2025-05-19 14:01:11,500 - INFO -   - PERSON: 1 replacements
+2025-05-19 14:01:11,506 - INFO - Applying censoring method: regex
+2025-05-19 14:01:11,506 - INFO - Beginning text censoring
+2025-05-19 14:01:11,506 - DEBUG - Censoring company names
+2025-05-19 14:01:11,506 - DEBUG - Censoring email addresses
+2025-05-19 14:01:11,506 - DEBUG - Censoring domain names
+2025-05-19 14:01:11,506 - DEBUG - Censoring API keys and secrets
+2025-05-19 14:01:11,506 - DEBUG - Censoring credit card numbers
+2025-05-19 14:01:11,506 - DEBUG - Censoring monetary values
+2025-05-19 14:01:11,506 - DEBUG - Censoring phone numbers
+2025-05-19 14:01:11,506 - DEBUG - Censoring ID numbers
+2025-05-19 14:01:11,507 - DEBUG - Censoring IP addresses
+2025-05-19 14:01:11,507 - DEBUG - Censoring physical addresses
+2025-05-19 14:01:11,507 - DEBUG - Censoring dates
+2025-05-19 14:01:11,507 - DEBUG - Censoring passwords and tokens
+2025-05-19 14:01:11,507 - INFO - Censoring complete: 0 replacements made
+2025-05-19 14:01:11,507 - DEBUG - Text length change: 11 -> 11 (0 diff)
+2025-05-19 14:01:11,507 - INFO - Applying censoring method: offline_model
+2025-05-19 14:01:11,507 - INFO - Beginning text censoring with spaCy
+2025-05-19 14:01:11,507 - INFO - Checking for model en_core_web_lg in C:\Users\Nof\Desktop\Anonimizer\models
+2025-05-19 14:01:11,508 - INFO - Model found in custom location: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 14:01:16,278 - INFO - Censoring complete: 2 replacements made
+2025-05-19 14:01:16,279 - INFO -   - ORG: 1 replacements
+2025-05-19 14:01:16,279 - INFO -   - CARDINAL: 1 replacements
+2025-05-19 14:01:16,283 - INFO - Applying censoring method: regex
+2025-05-19 14:01:16,286 - INFO - Beginning text censoring
+2025-05-19 14:01:16,287 - DEBUG - Censoring company names
+2025-05-19 14:01:16,287 - DEBUG - Censoring email addresses
+2025-05-19 14:01:16,287 - DEBUG - Censoring domain names
+2025-05-19 14:01:16,287 - DEBUG - Censoring API keys and secrets
+2025-05-19 14:01:16,287 - DEBUG - Censoring credit card numbers
+2025-05-19 14:01:16,287 - DEBUG - Censoring monetary values
+2025-05-19 14:01:16,287 - DEBUG - Censoring phone numbers
+2025-05-19 14:01:16,287 - DEBUG - Censoring ID numbers
+2025-05-19 14:01:16,287 - DEBUG - Censoring IP addresses
+2025-05-19 14:01:16,287 - DEBUG - Censoring physical addresses
+2025-05-19 14:01:16,287 - DEBUG - Censoring dates
+2025-05-19 14:01:16,287 - DEBUG - Censoring passwords and tokens
+2025-05-19 14:01:16,288 - INFO - Censoring complete: 1 replacements made
+2025-05-19 14:01:16,288 - INFO -   - addresses: 1 replacements
+2025-05-19 14:01:16,288 - DEBUG - Text length change: 44 -> 27 (-17 diff)
+2025-05-19 14:01:16,288 - INFO - Applying censoring method: offline_model
+2025-05-19 14:01:16,288 - INFO - Beginning text censoring with spaCy
+2025-05-19 14:01:16,288 - INFO - Checking for model en_core_web_lg in C:\Users\Nof\Desktop\Anonimizer\models
+2025-05-19 14:01:16,288 - INFO - Model found in custom location: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 14:01:20,319 - INFO - Censoring complete: 2 replacements made
+2025-05-19 14:01:20,319 - INFO -   - GPE: 2 replacements
+2025-05-19 14:01:20,326 - INFO - Applying censoring method: regex
+2025-05-19 14:01:20,326 - INFO - Beginning text censoring
+2025-05-19 14:01:20,326 - DEBUG - Censoring company names
+2025-05-19 14:01:20,326 - DEBUG - Censoring email addresses
+2025-05-19 14:01:20,326 - DEBUG - Censoring domain names
+2025-05-19 14:01:20,326 - DEBUG - Censoring API keys and secrets
+2025-05-19 14:01:20,326 - DEBUG - Censoring credit card numbers
+2025-05-19 14:01:20,326 - DEBUG - Censoring monetary values
+2025-05-19 14:01:20,326 - DEBUG - Censoring phone numbers
+2025-05-19 14:01:20,326 - DEBUG - Censoring ID numbers
+2025-05-19 14:01:20,326 - DEBUG - Censoring IP addresses
+2025-05-19 14:01:20,327 - DEBUG - Censoring physical addresses
+2025-05-19 14:01:20,327 - DEBUG - Censoring dates
+2025-05-19 14:01:20,327 - DEBUG - Censoring passwords and tokens
+2025-05-19 14:01:20,327 - INFO - Censoring complete: 4 replacements made
+2025-05-19 14:01:20,327 - INFO -   - emails: 2 replacements
+2025-05-19 14:01:20,327 - INFO -   - domains: 2 replacements
+2025-05-19 14:01:20,327 - DEBUG - Text length change: 40 -> 43 (3 diff)
+2025-05-19 14:01:20,327 - INFO - Applying censoring method: offline_model
+2025-05-19 14:01:20,327 - INFO - Beginning text censoring with spaCy
+2025-05-19 14:01:20,327 - INFO - Checking for model en_core_web_lg in C:\Users\Nof\Desktop\Anonimizer\models
+2025-05-19 14:01:20,328 - INFO - Model found in custom location: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 14:01:24,930 - INFO - Censoring complete: 0 replacements made
+2025-05-19 14:01:24,935 - INFO - Applying censoring method: regex
+2025-05-19 14:01:24,935 - INFO - Beginning text censoring
+2025-05-19 14:01:24,935 - DEBUG - Censoring company names
+2025-05-19 14:01:24,935 - DEBUG - Censoring email addresses
+2025-05-19 14:01:24,935 - DEBUG - Censoring domain names
+2025-05-19 14:01:24,935 - DEBUG - Censoring API keys and secrets
+2025-05-19 14:01:24,935 - DEBUG - Censoring credit card numbers
+2025-05-19 14:01:24,935 - DEBUG - Censoring monetary values
+2025-05-19 14:01:24,935 - DEBUG - Censoring phone numbers
+2025-05-19 14:01:24,935 - DEBUG - Censoring ID numbers
+2025-05-19 14:01:24,935 - DEBUG - Censoring IP addresses
+2025-05-19 14:01:24,936 - DEBUG - Censoring physical addresses
+2025-05-19 14:01:24,936 - DEBUG - Censoring dates
+2025-05-19 14:01:24,936 - DEBUG - Censoring passwords and tokens
+2025-05-19 14:01:24,936 - INFO - Censoring complete: 0 replacements made
+2025-05-19 14:01:24,936 - DEBUG - Text length change: 8 -> 8 (0 diff)
+2025-05-19 14:01:24,936 - INFO - Applying censoring method: offline_model
+2025-05-19 14:01:24,936 - INFO - Beginning text censoring with spaCy
+2025-05-19 14:01:24,936 - INFO - Checking for model en_core_web_lg in C:\Users\Nof\Desktop\Anonimizer\models
+2025-05-19 14:01:24,936 - INFO - Model found in custom location: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 14:01:28,668 - INFO - Censoring complete: 0 replacements made
+2025-05-19 14:01:28,674 - INFO - Applying censoring method: regex
+2025-05-19 14:01:28,674 - INFO - Beginning text censoring
+2025-05-19 14:01:28,674 - DEBUG - Censoring company names
+2025-05-19 14:01:28,675 - DEBUG - Censoring email addresses
+2025-05-19 14:01:28,675 - DEBUG - Censoring domain names
+2025-05-19 14:01:28,675 - DEBUG - Censoring API keys and secrets
+2025-05-19 14:01:28,675 - DEBUG - Censoring credit card numbers
+2025-05-19 14:01:28,675 - DEBUG - Censoring monetary values
+2025-05-19 14:01:28,675 - DEBUG - Censoring phone numbers
+2025-05-19 14:01:28,675 - DEBUG - Censoring ID numbers
+2025-05-19 14:01:28,675 - DEBUG - Censoring IP addresses
+2025-05-19 14:01:28,675 - DEBUG - Censoring physical addresses
+2025-05-19 14:01:28,675 - DEBUG - Censoring dates
+2025-05-19 14:01:28,675 - DEBUG - Censoring passwords and tokens
+2025-05-19 14:01:28,675 - INFO - Censoring complete: 0 replacements made
+2025-05-19 14:01:28,675 - DEBUG - Text length change: 268 -> 268 (0 diff)
+2025-05-19 14:01:28,676 - INFO - Applying censoring method: offline_model
+2025-05-19 14:01:28,676 - INFO - Beginning text censoring with spaCy
+2025-05-19 14:01:28,676 - INFO - Checking for model en_core_web_lg in C:\Users\Nof\Desktop\Anonimizer\models
+2025-05-19 14:01:28,676 - INFO - Model found in custom location: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 14:01:32,440 - INFO - Censoring complete: 4 replacements made
+2025-05-19 14:01:32,442 - INFO -   - ORG: 3 replacements
+2025-05-19 14:01:32,442 - INFO -   - EVENT: 1 replacements
+2025-05-19 14:01:32,447 - INFO - Applying censoring method: regex
+2025-05-19 14:01:32,447 - INFO - Beginning text censoring
+2025-05-19 14:01:32,447 - DEBUG - Censoring company names
+2025-05-19 14:01:32,448 - DEBUG - Censoring email addresses
+2025-05-19 14:01:32,448 - DEBUG - Censoring domain names
+2025-05-19 14:01:32,448 - DEBUG - Censoring API keys and secrets
+2025-05-19 14:01:32,448 - DEBUG - Censoring credit card numbers
+2025-05-19 14:01:32,448 - DEBUG - Censoring monetary values
+2025-05-19 14:01:32,448 - DEBUG - Censoring phone numbers
+2025-05-19 14:01:32,448 - DEBUG - Censoring ID numbers
+2025-05-19 14:01:32,448 - DEBUG - Censoring IP addresses
+2025-05-19 14:01:32,448 - DEBUG - Censoring physical addresses
+2025-05-19 14:01:32,448 - DEBUG - Censoring dates
+2025-05-19 14:01:32,448 - DEBUG - Censoring passwords and tokens
+2025-05-19 14:01:32,448 - INFO - Censoring complete: 0 replacements made
+2025-05-19 14:01:32,448 - DEBUG - Text length change: 12 -> 12 (0 diff)
+2025-05-19 14:01:32,448 - INFO - Applying censoring method: offline_model
+2025-05-19 14:01:32,448 - INFO - Beginning text censoring with spaCy
+2025-05-19 14:01:32,449 - INFO - Checking for model en_core_web_lg in C:\Users\Nof\Desktop\Anonimizer\models
+2025-05-19 14:01:32,449 - INFO - Model found in custom location: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 14:01:36,430 - INFO - Censoring complete: 0 replacements made
+2025-05-19 14:01:36,437 - INFO - Applying censoring method: regex
+2025-05-19 14:01:36,437 - INFO - Beginning text censoring
+2025-05-19 14:01:36,438 - DEBUG - Censoring company names
+2025-05-19 14:01:36,438 - DEBUG - Censoring email addresses
+2025-05-19 14:01:36,438 - DEBUG - Censoring domain names
+2025-05-19 14:01:36,438 - DEBUG - Censoring API keys and secrets
+2025-05-19 14:01:36,438 - DEBUG - Censoring credit card numbers
+2025-05-19 14:01:36,438 - DEBUG - Censoring monetary values
+2025-05-19 14:01:36,438 - DEBUG - Censoring phone numbers
+2025-05-19 14:01:36,438 - DEBUG - Censoring ID numbers
+2025-05-19 14:01:36,439 - DEBUG - Censoring IP addresses
+2025-05-19 14:01:36,439 - DEBUG - Censoring physical addresses
+2025-05-19 14:01:36,439 - DEBUG - Censoring dates
+2025-05-19 14:01:36,439 - DEBUG - Censoring passwords and tokens
+2025-05-19 14:01:36,439 - INFO - Censoring complete: 0 replacements made
+2025-05-19 14:01:36,439 - DEBUG - Text length change: 443 -> 443 (0 diff)
+2025-05-19 14:01:36,439 - INFO - Applying censoring method: offline_model
+2025-05-19 14:01:36,439 - INFO - Beginning text censoring with spaCy
+2025-05-19 14:01:36,440 - INFO - Checking for model en_core_web_lg in C:\Users\Nof\Desktop\Anonimizer\models
+2025-05-19 14:01:36,440 - INFO - Model found in custom location: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 14:01:40,202 - INFO - Censoring complete: 7 replacements made
+2025-05-19 14:01:40,202 - INFO -   - DATE: 1 replacements
+2025-05-19 14:01:40,202 - INFO -   - CARDINAL: 2 replacements
+2025-05-19 14:01:40,202 - INFO -   - ORG: 3 replacements
+2025-05-19 14:01:40,203 - INFO -   - EVENT: 1 replacements
+2025-05-19 14:01:40,208 - INFO - Applying censoring method: regex
+2025-05-19 14:01:40,209 - INFO - Beginning text censoring
+2025-05-19 14:01:40,209 - DEBUG - Censoring company names
+2025-05-19 14:01:40,209 - DEBUG - Censoring email addresses
+2025-05-19 14:01:40,209 - DEBUG - Censoring domain names
+2025-05-19 14:01:40,209 - DEBUG - Censoring API keys and secrets
+2025-05-19 14:01:40,209 - DEBUG - Censoring credit card numbers
+2025-05-19 14:01:40,209 - DEBUG - Censoring monetary values
+2025-05-19 14:01:40,209 - DEBUG - Censoring phone numbers
+2025-05-19 14:01:40,209 - DEBUG - Censoring ID numbers
+2025-05-19 14:01:40,209 - DEBUG - Censoring IP addresses
+2025-05-19 14:01:40,209 - DEBUG - Censoring physical addresses
+2025-05-19 14:01:40,209 - DEBUG - Censoring dates
+2025-05-19 14:01:40,209 - DEBUG - Censoring passwords and tokens
+2025-05-19 14:01:40,210 - INFO - Censoring complete: 0 replacements made
+2025-05-19 14:01:40,210 - DEBUG - Text length change: 68 -> 68 (0 diff)
+2025-05-19 14:01:40,210 - INFO - Applying censoring method: offline_model
+2025-05-19 14:01:40,210 - INFO - Beginning text censoring with spaCy
+2025-05-19 14:01:40,210 - INFO - Checking for model en_core_web_lg in C:\Users\Nof\Desktop\Anonimizer\models
+2025-05-19 14:01:40,211 - INFO - Model found in custom location: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 14:01:44,869 - INFO - Censoring complete: 1 replacements made
+2025-05-19 14:01:44,869 - INFO -   - ORG: 1 replacements
+2025-05-19 14:01:44,872 - INFO - Applying censoring method: regex
+2025-05-19 14:01:44,874 - INFO - Beginning text censoring
+2025-05-19 14:01:44,874 - DEBUG - Censoring company names
+2025-05-19 14:01:44,874 - DEBUG - Censoring email addresses
+2025-05-19 14:01:44,874 - DEBUG - Censoring domain names
+2025-05-19 14:01:44,874 - DEBUG - Censoring API keys and secrets
+2025-05-19 14:01:44,874 - DEBUG - Censoring credit card numbers
+2025-05-19 14:01:44,874 - DEBUG - Censoring monetary values
+2025-05-19 14:01:44,874 - DEBUG - Censoring phone numbers
+2025-05-19 14:01:44,874 - DEBUG - Censoring ID numbers
+2025-05-19 14:01:44,874 - DEBUG - Censoring IP addresses
+2025-05-19 14:01:44,874 - DEBUG - Censoring physical addresses
+2025-05-19 14:01:44,874 - DEBUG - Censoring dates
+2025-05-19 14:01:44,874 - DEBUG - Censoring passwords and tokens
+2025-05-19 14:01:44,874 - INFO - Censoring complete: 0 replacements made
+2025-05-19 14:01:44,874 - DEBUG - Text length change: 6 -> 6 (0 diff)
+2025-05-19 14:01:44,874 - INFO - Applying censoring method: offline_model
+2025-05-19 14:01:44,875 - INFO - Beginning text censoring with spaCy
+2025-05-19 14:01:44,875 - INFO - Checking for model en_core_web_lg in C:\Users\Nof\Desktop\Anonimizer\models
+2025-05-19 14:01:44,875 - INFO - Model found in custom location: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg

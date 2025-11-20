@@ -1,0 +1,133 @@
+2025-05-19 14:05:51,507 - INFO - Starting company information censor
+2025-05-19 14:05:51,507 - DEBUG - Log file created at: C:\Users\Nof\Desktop\Anonimizer\logs\censor_20250519_140551.log
+2025-05-19 14:05:51,507 - INFO - Loading configuration
+2025-05-19 14:05:51,507 - DEBUG - Loading config from: C:\Users\Nof\Desktop\Anonimizer\config.json5
+2025-05-19 14:05:51,514 - DEBUG - Config loaded: 1 keywords, type: ['regex', 'offline_model']
+2025-05-19 14:05:51,514 - INFO - Configuration loaded: 1 keywords found
+2025-05-19 14:05:51,514 - DEBUG - Parsing command line arguments
+2025-05-19 14:05:51,516 - INFO - Input file: tests\complex.pdf
+2025-05-19 14:05:51,516 - INFO - Output file: output.pdf
+2025-05-19 14:05:52,854 - INFO - Preloading spaCy model...
+2025-05-19 14:05:52,854 - INFO - Checking for model en_core_web_lg in C:\Users\Nof\Desktop\Anonimizer\models
+2025-05-19 14:05:52,854 - INFO - Model found in custom location: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 14:05:56,582 - INFO - spaCy model loaded in 3.73 seconds
+2025-05-19 14:05:56,661 - INFO - Processing PDF file with format preservation: tests\complex.pdf
+2025-05-19 14:05:56,669 - INFO - Processing PDF with 114 pages
+2025-05-19 14:05:56,673 - INFO - Processing page 1/114 with 3 text blocks
+2025-05-19 14:05:56,704 - INFO - Processing page 2/114 with 4 text blocks
+2025-05-19 14:05:56,897 - INFO - Processing page 3/114 with 13 text blocks
+2025-05-19 14:05:57,049 - INFO - Processing page 4/114 with 8 text blocks
+2025-05-19 14:05:57,153 - INFO - Processing page 5/114 with 25 text blocks
+2025-05-19 14:05:57,405 - INFO - Processing page 6/114 with 7 text blocks
+2025-05-19 14:05:57,466 - INFO - Processing page 7/114 with 22 text blocks
+2025-05-19 14:05:57,699 - INFO - Processing page 8/114 with 1 text blocks
+2025-05-19 14:05:57,710 - INFO - Processing page 9/114 with 22 text blocks
+2025-05-19 14:05:57,978 - INFO - Processing page 10/114 with 3 text blocks
+2025-05-19 14:05:58,020 - INFO - Processing page 11/114 with 7 text blocks
+2025-05-19 14:05:58,123 - INFO - Processing page 12/114 with 24 text blocks
+2025-05-19 14:05:58,334 - INFO - Processing page 13/114 with 32 text blocks
+2025-05-19 14:05:58,607 - INFO - Processing page 14/114 with 24 text blocks
+2025-05-19 14:05:58,833 - INFO - Processing page 15/114 with 29 text blocks
+2025-05-19 14:05:59,071 - INFO - Processing page 16/114 with 19 text blocks
+2025-05-19 14:05:59,250 - INFO - Processing page 17/114 with 18 text blocks
+2025-05-19 14:05:59,446 - INFO - Processing page 18/114 with 20 text blocks
+2025-05-19 14:05:59,640 - INFO - Processing page 19/114 with 27 text blocks
+2025-05-19 14:05:59,879 - INFO - Processing page 20/114 with 23 text blocks
+2025-05-19 14:06:00,078 - INFO - Processing page 21/114 with 21 text blocks
+2025-05-19 14:06:00,292 - INFO - Processing page 22/114 with 22 text blocks
+2025-05-19 14:06:00,549 - INFO - Processing page 23/114 with 25 text blocks
+2025-05-19 14:06:00,810 - INFO - Processing page 24/114 with 26 text blocks
+2025-05-19 14:06:01,037 - INFO - Processing page 25/114 with 23 text blocks
+2025-05-19 14:06:01,279 - INFO - Processing page 26/114 with 22 text blocks
+2025-05-19 14:06:01,465 - INFO - Processing page 27/114 with 24 text blocks
+2025-05-19 14:06:01,690 - INFO - Processing page 28/114 with 24 text blocks
+2025-05-19 14:06:01,900 - INFO - Processing page 29/114 with 23 text blocks
+2025-05-19 14:06:02,083 - INFO - Processing page 30/114 with 24 text blocks
+2025-05-19 14:06:02,287 - INFO - Processing page 31/114 with 23 text blocks
+2025-05-19 14:06:02,487 - INFO - Processing page 32/114 with 32 text blocks
+2025-05-19 14:06:02,739 - INFO - Processing page 33/114 with 20 text blocks
+2025-05-19 14:06:02,909 - INFO - Processing page 34/114 with 24 text blocks
+2025-05-19 14:06:03,150 - INFO - Processing page 35/114 with 19 text blocks
+2025-05-19 14:06:03,399 - INFO - Processing page 36/114 with 18 text blocks
+2025-05-19 14:06:03,686 - INFO - Processing page 37/114 with 21 text blocks
+2025-05-19 14:06:03,933 - INFO - Processing page 38/114 with 19 text blocks
+2025-05-19 14:06:04,196 - INFO - Processing page 39/114 with 27 text blocks
+2025-05-19 14:06:04,508 - INFO - Processing page 40/114 with 29 text blocks
+2025-05-19 14:06:04,792 - INFO - Processing page 41/114 with 37 text blocks
+2025-05-19 14:06:05,019 - INFO - Processing page 42/114 with 34 text blocks
+2025-05-19 14:06:05,264 - INFO - Processing page 43/114 with 20 text blocks
+2025-05-19 14:06:05,462 - INFO - Processing page 44/114 with 7 text blocks
+2025-05-19 14:06:05,546 - INFO - Processing page 45/114 with 20 text blocks
+2025-05-19 14:06:05,742 - INFO - Processing page 46/114 with 20 text blocks
+2025-05-19 14:06:05,956 - INFO - Processing page 47/114 with 19 text blocks
+2025-05-19 14:06:06,154 - INFO - Processing page 48/114 with 19 text blocks
+2025-05-19 14:06:06,362 - INFO - Processing page 49/114 with 19 text blocks
+2025-05-19 14:06:06,596 - INFO - Processing page 50/114 with 3 text blocks
+2025-05-19 14:06:06,628 - INFO - Processing page 51/114 with 26 text blocks
+2025-05-19 14:06:06,888 - INFO - Processing page 52/114 with 16 text blocks
+2025-05-19 14:06:07,133 - INFO - Processing page 53/114 with 23 text blocks
+2025-05-19 14:06:07,340 - INFO - Processing page 54/114 with 21 text blocks
+2025-05-19 14:06:07,578 - INFO - Processing page 55/114 with 3 text blocks
+2025-05-19 14:06:07,609 - INFO - Processing page 56/114 with 26 text blocks
+2025-05-19 14:06:07,865 - INFO - Processing page 57/114 with 24 text blocks
+2025-05-19 14:06:08,125 - INFO - Processing page 58/114 with 40 text blocks
+2025-05-19 14:06:08,378 - INFO - Processing page 59/114 with 46 text blocks
+2025-05-19 14:06:08,686 - INFO - Processing page 60/114 with 23 text blocks
+2025-05-19 14:06:08,873 - INFO - Processing page 61/114 with 28 text blocks
+2025-05-19 14:06:09,171 - INFO - Processing page 62/114 with 8 text blocks
+2025-05-19 14:06:09,258 - INFO - Processing page 63/114 with 26 text blocks
+2025-05-19 14:06:09,510 - INFO - Processing page 64/114 with 21 text blocks
+2025-05-19 14:06:09,750 - INFO - Processing page 65/114 with 20 text blocks
+2025-05-19 14:06:10,014 - INFO - Processing page 66/114 with 33 text blocks
+2025-05-19 14:06:10,327 - INFO - Processing page 67/114 with 19 text blocks
+2025-05-19 14:06:10,579 - INFO - Processing page 68/114 with 25 text blocks
+2025-05-19 14:06:10,825 - INFO - Processing page 69/114 with 18 text blocks
+2025-05-19 14:06:11,047 - INFO - Processing page 70/114 with 17 text blocks
+2025-05-19 14:06:11,285 - INFO - Processing page 71/114 with 15 text blocks
+2025-05-19 14:06:11,506 - INFO - Processing page 72/114 with 18 text blocks
+2025-05-19 14:06:11,715 - INFO - Processing page 73/114 with 21 text blocks
+2025-05-19 14:06:11,938 - INFO - Processing page 74/114 with 21 text blocks
+2025-05-19 14:06:12,153 - INFO - Processing page 75/114 with 24 text blocks
+2025-05-19 14:06:12,439 - INFO - Processing page 76/114 with 20 text blocks
+2025-05-19 14:06:12,724 - INFO - Processing page 77/114 with 2 text blocks
+2025-05-19 14:06:12,751 - INFO - Processing page 78/114 with 17 text blocks
+2025-05-19 14:06:12,999 - INFO - Processing page 79/114 with 18 text blocks
+2025-05-19 14:06:13,222 - INFO - Processing page 80/114 with 23 text blocks
+2025-05-19 14:06:13,437 - INFO - Processing page 81/114 with 13 text blocks
+2025-05-19 14:06:13,617 - INFO - Processing page 82/114 with 26 text blocks
+2025-05-19 14:06:13,849 - INFO - Processing page 83/114 with 20 text blocks
+2025-05-19 14:06:14,021 - INFO - Processing page 84/114 with 17 text blocks
+2025-05-19 14:06:14,174 - INFO - Processing page 85/114 with 30 text blocks
+2025-05-19 14:06:14,423 - INFO - Processing page 86/114 with 27 text blocks
+2025-05-19 14:06:14,604 - INFO - Processing page 87/114 with 29 text blocks
+2025-05-19 14:06:14,864 - INFO - Processing page 88/114 with 26 text blocks
+2025-05-19 14:06:15,107 - INFO - Processing page 89/114 with 29 text blocks
+2025-05-19 14:06:15,369 - INFO - Processing page 90/114 with 28 text blocks
+2025-05-19 14:06:15,678 - INFO - Processing page 91/114 with 27 text blocks
+2025-05-19 14:06:15,953 - INFO - Processing page 92/114 with 31 text blocks
+2025-05-19 14:06:16,221 - INFO - Processing page 93/114 with 24 text blocks
+2025-05-19 14:06:16,411 - INFO - Processing page 94/114 with 29 text blocks
+2025-05-19 14:06:16,750 - INFO - Processing page 95/114 with 10 text blocks
+2025-05-19 14:06:16,838 - INFO - Processing page 96/114 with 25 text blocks
+2025-05-19 14:06:17,098 - INFO - Processing page 97/114 with 37 text blocks
+2025-05-19 14:06:17,267 - INFO - Processing page 98/114 with 17 text blocks
+2025-05-19 14:06:17,539 - INFO - Processing page 99/114 with 13 text blocks
+2025-05-19 14:06:17,767 - INFO - Processing page 100/114 with 16 text blocks
+2025-05-19 14:06:17,989 - INFO - Processing page 101/114 with 20 text blocks
+2025-05-19 14:06:18,234 - INFO - Processing page 102/114 with 6 text blocks
+2025-05-19 14:06:18,278 - INFO - Processing page 103/114 with 13 text blocks
+2025-05-19 14:06:18,470 - INFO - Processing page 104/114 with 16 text blocks
+2025-05-19 14:06:18,668 - INFO - Processing page 105/114 with 19 text blocks
+2025-05-19 14:06:18,929 - INFO - Processing page 106/114 with 11 text blocks
+2025-05-19 14:06:19,088 - INFO - Processing page 107/114 with 14 text blocks
+2025-05-19 14:06:19,349 - INFO - Processing page 108/114 with 18 text blocks
+2025-05-19 14:06:19,668 - INFO - Processing page 109/114 with 20 text blocks
+2025-05-19 14:06:19,922 - INFO - Processing page 110/114 with 3 text blocks
+2025-05-19 14:06:19,969 - INFO - Processing page 111/114 with 30 text blocks
+2025-05-19 14:06:20,287 - INFO - Processing page 112/114 with 43 text blocks
+2025-05-19 14:06:20,630 - INFO - Processing page 113/114 with 26 text blocks
+2025-05-19 14:06:20,854 - INFO - Processing page 114/114 with 1 text blocks
+2025-05-19 14:06:20,923 - INFO - Saved censored PDF with preserved layout: output.pdf
+2025-05-19 14:06:20,923 - INFO - PDF processing complete in 24.26 seconds
+2025-05-19 14:06:20,923 - INFO - Modified 1110 out of 2351 text blocks
+2025-05-19 14:06:20,928 - INFO - Processing completed successfully

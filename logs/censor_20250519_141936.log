@@ -1,0 +1,16 @@
+2025-05-19 14:19:36,118 - INFO - Starting company information censor
+2025-05-19 14:19:36,118 - DEBUG - Log file created at: C:\Users\Nof\Desktop\Anonimizer\logs\censor_20250519_141936.log
+2025-05-19 14:19:36,119 - INFO - Loading configuration
+2025-05-19 14:19:36,119 - DEBUG - Loading config from: C:\Users\Nof\Desktop\Anonimizer\config.json5
+2025-05-19 14:19:36,124 - DEBUG - Config loaded: 1 keywords, type: ['regex', 'offline_model']
+2025-05-19 14:19:36,124 - INFO - Configuration loaded: 1 keywords found
+2025-05-19 14:19:36,125 - DEBUG - Parsing command line arguments
+2025-05-19 14:19:36,131 - INFO - Input file: tests\complex.pdf
+2025-05-19 14:19:36,131 - INFO - Output file: output.pdf
+2025-05-19 14:19:37,447 - ERROR - Error processing file: name 'process_pdf_with_preserving_format' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Nof\Desktop\Anonimizer\helpers\file_handler.py", line 521, in process_file
+    return process_pdf_with_preserving_format(input_path, output_path, censor_types, keywords, model_name, logger)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'process_pdf_with_preserving_format' is not defined
+2025-05-19 14:19:37,447 - ERROR - Error: name 'process_pdf_with_preserving_format' is not defined

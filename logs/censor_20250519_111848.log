@@ -1,0 +1,53 @@
+2025-05-19 11:18:48,630 - INFO - Starting company information censor
+2025-05-19 11:18:48,631 - DEBUG - Log file created at: C:\Users\Nof\Desktop\Anonimizer\logs\censor_20250519_111848.log
+2025-05-19 11:18:48,631 - INFO - Loading configuration
+2025-05-19 11:18:48,631 - DEBUG - Loading config from: C:\Users\Nof\Desktop\Anonimizer\config.json5
+2025-05-19 11:18:48,642 - DEBUG - Config loaded: 1 keywords, type: ['regex', 'offline_model']
+2025-05-19 11:18:48,642 - INFO - Configuration loaded: 1 keywords found
+2025-05-19 11:18:48,642 - DEBUG - Parsing command line arguments
+2025-05-19 11:18:48,642 - INFO - Input file: C:\Users\Nof\Desktop\Anonimizer\tests\complex.docx
+2025-05-19 11:18:48,642 - INFO - Output file: output.docx
+2025-05-19 11:18:55,181 - INFO - Processing file: C:\Users\Nof\Desktop\Anonimizer\tests\complex.docx -> output.docx
+2025-05-19 11:18:55,181 - INFO - Loading file: C:\Users\Nof\Desktop\Anonimizer\tests\complex.docx
+2025-05-19 11:18:55,181 - DEBUG - File extension: .docx, MIME type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+2025-05-19 11:18:55,274 - INFO - Loaded Word document: 92 paragraphs, 0 tables
+2025-05-19 11:18:55,274 - INFO - Applying censoring method: regex
+2025-05-19 11:18:55,274 - INFO - Beginning text censoring
+2025-05-19 11:18:55,274 - DEBUG - Censoring company names
+2025-05-19 11:18:55,274 - DEBUG - Censoring email addresses
+2025-05-19 11:18:55,274 - DEBUG - Censoring domain names
+2025-05-19 11:18:55,274 - DEBUG - Censoring API keys and secrets
+2025-05-19 11:18:55,289 - DEBUG - Censoring credit card numbers
+2025-05-19 11:18:55,294 - DEBUG - Censoring monetary values
+2025-05-19 11:18:55,298 - DEBUG - Censoring phone numbers
+2025-05-19 11:18:55,302 - DEBUG - Censoring ID numbers
+2025-05-19 11:18:55,304 - DEBUG - Censoring IP addresses
+2025-05-19 11:18:55,306 - DEBUG - Censoring physical addresses
+2025-05-19 11:18:55,308 - DEBUG - Censoring dates
+2025-05-19 11:18:55,312 - DEBUG - Censoring passwords and tokens
+2025-05-19 11:18:55,313 - DEBUG - Censoring person names
+2025-05-19 11:18:55,324 - INFO - Censoring complete: 46 replacements made
+2025-05-19 11:18:55,324 - INFO -   - emails: 3 replacements
+2025-05-19 11:18:55,324 - INFO -   - domains: 3 replacements
+2025-05-19 11:18:55,324 - INFO -   - addresses: 5 replacements
+2025-05-19 11:18:55,324 - INFO -   - dates: 1 replacements
+2025-05-19 11:18:55,324 - INFO -   - person_names: 34 replacements
+2025-05-19 11:18:55,324 - DEBUG - Text length change: 13410 -> 13231 (-179 diff)
+2025-05-19 11:18:55,324 - INFO - Applying censoring method: offline_model
+2025-05-19 11:18:55,324 - INFO - Beginning text censoring with Presidio
+2025-05-19 11:18:55,324 - INFO - Checking for model en_core_web_lg in C:\Users\Nof\Desktop\Anonimizer\models
+2025-05-19 11:18:55,324 - INFO - Model found in custom location: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 11:18:57,322 - INFO - Using model from: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 11:18:58,716 - DEBUG - Analyzing text for PII entities
+2025-05-19 11:18:59,949 - DEBUG - Anonymizing identified entities
+2025-05-19 11:18:59,949 - INFO - Censoring complete: 11 replacements made
+2025-05-19 11:18:59,949 - INFO -   - PERSON: 6 replacements
+2025-05-19 11:18:59,949 - INFO -   - DATE_TIME: 1 replacements
+2025-05-19 11:18:59,949 - INFO -   - LOCATION: 3 replacements
+2025-05-19 11:18:59,949 - INFO -   - US_DRIVER_LICENSE: 1 replacements
+2025-05-19 11:18:59,949 - DEBUG - Text length change: 13231 -> 13269 (38 diff)
+2025-05-19 11:18:59,952 - INFO - Saving censored content
+2025-05-19 11:18:59,952 - INFO - Saving file to: output.docx
+2025-05-19 11:18:59,992 - INFO - Saved Word document: output.docx
+2025-05-19 11:18:59,992 - INFO - File processed successfully
+2025-05-19 11:18:59,992 - INFO - Processing completed successfully

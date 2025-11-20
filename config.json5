@@ -1,0 +1,22 @@
+{
+    // This is a JSON5 configuration file for the company censor
+
+    // Keywords to identify company-specific information for censoring
+    // Add your company name, project names, or other sensitive terms
+    keywords: [
+        "10root"
+    ],
+    
+    // Type of censoring to use (can use multiple in an array)
+    // - 'regex': Use regular expressions for pattern-based censoring
+    // - 'offline_model': Use Presidio NLP model for enhanced PII recognition
+    censor_type: ["regex", "offline_model"],
+    
+    // Model to use with 'offline_model' censoring (Presidio uses spaCy models)
+    censor_model: "en_core_web_lg",
+}
+
+// Example commands:
+// python main.py --input tests/10root_PT_Report.md --output censored_report.md
+// python main.py --input sample.docx --output censored.docx
+// python main.py --input confidential.pdf --output redacted.pdf

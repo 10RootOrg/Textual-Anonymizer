@@ -1,0 +1,76 @@
+2025-05-19 14:19:42,673 - INFO - Starting company information censor
+2025-05-19 14:19:42,673 - DEBUG - Log file created at: C:\Users\Nof\Desktop\Anonimizer\logs\censor_20250519_141942.log
+2025-05-19 14:19:42,674 - INFO - Loading configuration
+2025-05-19 14:19:42,674 - DEBUG - Loading config from: C:\Users\Nof\Desktop\Anonimizer\config.json5
+2025-05-19 14:19:42,680 - DEBUG - Config loaded: 1 keywords, type: ['regex', 'offline_model']
+2025-05-19 14:19:42,680 - INFO - Configuration loaded: 1 keywords found
+2025-05-19 14:19:42,681 - DEBUG - Parsing command line arguments
+2025-05-19 14:19:42,686 - INFO - Input file: tests\complex.pdf
+2025-05-19 14:19:42,686 - INFO - Output file: output.pdf
+2025-05-19 14:19:44,125 - INFO - Processing PDF file with format preservation: tests\complex.pdf
+2025-05-19 14:19:44,125 - INFO - Checking for model en_core_web_lg in C:\Users\Nof\Desktop\Anonimizer\models
+2025-05-19 14:19:44,126 - INFO - Model found in custom location: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 14:19:45,564 - INFO - Beginning text censoring
+2025-05-19 14:19:45,564 - DEBUG - Censoring company names
+2025-05-19 14:19:45,564 - DEBUG - Censoring email addresses
+2025-05-19 14:19:45,565 - DEBUG - Censoring domain names
+2025-05-19 14:19:45,565 - DEBUG - Censoring API keys and secrets
+2025-05-19 14:19:45,567 - DEBUG - Censoring credit card numbers
+2025-05-19 14:19:45,569 - DEBUG - Censoring monetary values
+2025-05-19 14:19:45,572 - DEBUG - Censoring phone numbers
+2025-05-19 14:19:45,573 - DEBUG - Censoring ID numbers
+2025-05-19 14:19:45,574 - DEBUG - Censoring IP addresses
+2025-05-19 14:19:45,574 - DEBUG - Censoring physical addresses
+2025-05-19 14:19:45,578 - DEBUG - Censoring dates
+2025-05-19 14:19:45,580 - DEBUG - Censoring passwords and tokens
+2025-05-19 14:19:45,582 - INFO - Censoring complete: 0 replacements made
+2025-05-19 14:19:45,582 - DEBUG - Text length change: 27 -> 27 (0 diff)
+2025-05-19 14:19:45,582 - INFO - Beginning text censoring with Presidio
+2025-05-19 14:19:45,582 - INFO - Checking for model en_core_web_lg in C:\Users\Nof\Desktop\Anonimizer\models
+2025-05-19 14:19:45,583 - INFO - Model found in custom location: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 14:19:47,563 - INFO - Using model from: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 14:19:49,237 - DEBUG - Analyzing text for PII entities
+2025-05-19 14:19:49,404 - DEBUG - Anonymizing identified entities
+2025-05-19 14:19:49,404 - INFO - Censoring complete: 0 replacements made
+2025-05-19 14:19:49,404 - DEBUG - Text length change: 27 -> 27 (0 diff)
+2025-05-19 14:19:49,407 - INFO - Beginning text censoring
+2025-05-19 14:19:49,407 - DEBUG - Censoring company names
+2025-05-19 14:19:49,407 - DEBUG - Censoring email addresses
+2025-05-19 14:19:49,407 - DEBUG - Censoring domain names
+2025-05-19 14:19:49,408 - DEBUG - Censoring API keys and secrets
+2025-05-19 14:19:49,408 - DEBUG - Censoring credit card numbers
+2025-05-19 14:19:49,408 - DEBUG - Censoring monetary values
+2025-05-19 14:19:49,408 - DEBUG - Censoring phone numbers
+2025-05-19 14:19:49,408 - DEBUG - Censoring ID numbers
+2025-05-19 14:19:49,408 - DEBUG - Censoring IP addresses
+2025-05-19 14:19:49,408 - DEBUG - Censoring physical addresses
+2025-05-19 14:19:49,408 - DEBUG - Censoring dates
+2025-05-19 14:19:49,408 - DEBUG - Censoring passwords and tokens
+2025-05-19 14:19:49,408 - INFO - Censoring complete: 0 replacements made
+2025-05-19 14:19:49,408 - DEBUG - Text length change: 21 -> 21 (0 diff)
+2025-05-19 14:19:49,408 - INFO - Beginning text censoring with Presidio
+2025-05-19 14:19:49,408 - INFO - Checking for model en_core_web_lg in C:\Users\Nof\Desktop\Anonimizer\models
+2025-05-19 14:19:49,410 - INFO - Model found in custom location: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 14:19:51,115 - INFO - Using model from: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 14:19:53,011 - DEBUG - Analyzing text for PII entities
+2025-05-19 14:19:53,018 - DEBUG - Anonymizing identified entities
+2025-05-19 14:19:53,018 - INFO - Censoring complete: 0 replacements made
+2025-05-19 14:19:53,018 - DEBUG - Text length change: 21 -> 21 (0 diff)
+2025-05-19 14:19:53,023 - INFO - Beginning text censoring
+2025-05-19 14:19:53,023 - DEBUG - Censoring company names
+2025-05-19 14:19:53,024 - DEBUG - Censoring email addresses
+2025-05-19 14:19:53,024 - DEBUG - Censoring domain names
+2025-05-19 14:19:53,024 - DEBUG - Censoring API keys and secrets
+2025-05-19 14:19:53,024 - DEBUG - Censoring credit card numbers
+2025-05-19 14:19:53,024 - DEBUG - Censoring monetary values
+2025-05-19 14:19:53,024 - DEBUG - Censoring phone numbers
+2025-05-19 14:19:53,024 - DEBUG - Censoring ID numbers
+2025-05-19 14:19:53,024 - DEBUG - Censoring IP addresses
+2025-05-19 14:19:53,024 - DEBUG - Censoring physical addresses
+2025-05-19 14:19:53,024 - DEBUG - Censoring dates
+2025-05-19 14:19:53,024 - DEBUG - Censoring passwords and tokens
+2025-05-19 14:19:53,024 - INFO - Censoring complete: 0 replacements made
+2025-05-19 14:19:53,024 - DEBUG - Text length change: 4 -> 4 (0 diff)
+2025-05-19 14:19:53,024 - INFO - Beginning text censoring with Presidio
+2025-05-19 14:19:53,024 - INFO - Checking for model en_core_web_lg in C:\Users\Nof\Desktop\Anonimizer\models
+2025-05-19 14:19:53,024 - INFO - Model found in custom location: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg

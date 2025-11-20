@@ -1,0 +1,28 @@
+2025-05-19 14:07:28,977 - INFO - Starting company information censor
+2025-05-19 14:07:28,978 - DEBUG - Log file created at: C:\Users\Nof\Desktop\Anonimizer\logs\censor_20250519_140728.log
+2025-05-19 14:07:28,978 - INFO - Loading configuration
+2025-05-19 14:07:28,978 - DEBUG - Loading config from: C:\Users\Nof\Desktop\Anonimizer\config.json5
+2025-05-19 14:07:28,984 - DEBUG - Config loaded: 1 keywords, type: ['regex', 'offline_model']
+2025-05-19 14:07:28,984 - INFO - Configuration loaded: 1 keywords found
+2025-05-19 14:07:28,984 - DEBUG - Parsing command line arguments
+2025-05-19 14:07:28,988 - INFO - Input file: tests\complex.docx
+2025-05-19 14:07:28,988 - INFO - Output file: output.docx
+2025-05-19 14:07:30,113 - INFO - Preloading spaCy model...
+2025-05-19 14:07:30,113 - INFO - Checking for model en_core_web_lg in C:\Users\Nof\Desktop\Anonimizer\models
+2025-05-19 14:07:30,113 - INFO - Model found in custom location: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 14:07:33,000 - INFO - spaCy model loaded in 2.89 seconds
+2025-05-19 14:07:33,000 - INFO - Processing DOCX file with format preservation: tests\complex.docx
+2025-05-19 14:07:33,021 - INFO - Document contains approximately 94 text elements
+2025-05-19 14:07:33,135 - INFO - Processing DOCX: 10% complete (10/94 elements)
+2025-05-19 14:07:33,244 - INFO - Processing DOCX: 20% complete (19/94 elements)
+2025-05-19 14:07:33,374 - INFO - Processing DOCX: 30% complete (29/94 elements)
+2025-05-19 14:07:33,497 - INFO - Processing DOCX: 40% complete (38/94 elements)
+2025-05-19 14:07:33,601 - INFO - Processing DOCX: 50% complete (47/94 elements)
+2025-05-19 14:07:33,672 - INFO - Processing DOCX: 61% complete (58/94 elements)
+2025-05-19 14:07:33,723 - INFO - Processing DOCX: 73% complete (69/94 elements)
+2025-05-19 14:07:33,814 - INFO - Processing DOCX: 84% complete (79/94 elements)
+2025-05-19 14:07:33,873 - INFO - Processing DOCX: 94% complete (89/94 elements)
+2025-05-19 14:07:33,994 - INFO - Saved censored DOCX with preserved formatting: output.docx
+2025-05-19 14:07:33,994 - INFO - DOCX processing complete in 0.99 seconds
+2025-05-19 14:07:33,994 - INFO - Modified 46 out of 94 text elements
+2025-05-19 14:07:33,998 - INFO - Processing completed successfully

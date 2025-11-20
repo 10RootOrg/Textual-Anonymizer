@@ -1,0 +1,21 @@
+2025-05-19 14:04:43,397 - INFO - Starting company information censor
+2025-05-19 14:04:43,398 - DEBUG - Log file created at: C:\Users\Nof\Desktop\Anonimizer\logs\censor_20250519_140443.log
+2025-05-19 14:04:43,398 - INFO - Loading configuration
+2025-05-19 14:04:43,398 - DEBUG - Loading config from: C:\Users\Nof\Desktop\Anonimizer\config.json5
+2025-05-19 14:04:43,404 - DEBUG - Config loaded: 1 keywords, type: ['regex', 'offline_model']
+2025-05-19 14:04:43,404 - INFO - Configuration loaded: 1 keywords found
+2025-05-19 14:04:43,404 - DEBUG - Parsing command line arguments
+2025-05-19 14:04:43,405 - INFO - Input file: tests\10root_PT_Report.md
+2025-05-19 14:04:43,405 - INFO - Output file: output.md
+2025-05-19 14:04:44,665 - INFO - Preloading spaCy model...
+2025-05-19 14:04:44,665 - INFO - Checking for model en_core_web_lg in C:\Users\Nof\Desktop\Anonimizer\models
+2025-05-19 14:04:44,666 - INFO - Model found in custom location: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 14:04:48,198 - INFO - spaCy model loaded in 3.53 seconds
+2025-05-19 14:04:48,198 - INFO - Loading file: tests\10root_PT_Report.md
+2025-05-19 14:04:48,199 - DEBUG - File extension: .md, MIME type: None
+2025-05-19 14:04:48,199 - INFO - Loaded text file: 189 lines
+2025-05-19 14:04:48,511 - INFO - Saving censored content
+2025-05-19 14:04:48,512 - INFO - Saving file to: output.md
+2025-05-19 14:04:48,513 - INFO - Saved text file: output.md
+2025-05-19 14:04:48,514 - INFO - File processed successfully
+2025-05-19 14:04:48,518 - INFO - Processing completed successfully

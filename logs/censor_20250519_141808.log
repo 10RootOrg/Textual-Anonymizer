@@ -1,0 +1,68 @@
+2025-05-19 14:18:08,476 - INFO - Starting company information censor
+2025-05-19 14:18:08,476 - DEBUG - Log file created at: C:\Users\Nof\Desktop\Anonimizer\logs\censor_20250519_141808.log
+2025-05-19 14:18:08,476 - INFO - Loading configuration
+2025-05-19 14:18:08,476 - DEBUG - Loading config from: C:\Users\Nof\Desktop\Anonimizer\config.json5
+2025-05-19 14:18:08,484 - DEBUG - Config loaded: 1 keywords, type: ['regex', 'offline_model']
+2025-05-19 14:18:08,484 - INFO - Configuration loaded: 1 keywords found
+2025-05-19 14:18:08,484 - DEBUG - Parsing command line arguments
+2025-05-19 14:18:08,485 - INFO - Input file: tests\complex.pdf
+2025-05-19 14:18:08,486 - INFO - Output file: output.pdf
+2025-05-19 14:18:09,994 - INFO - Processing file: tests\complex.pdf -> output.pdf
+2025-05-19 14:18:09,995 - INFO - Loading file: tests\complex.pdf
+2025-05-19 14:18:09,995 - DEBUG - File extension: .pdf, MIME type: application/pdf
+2025-05-19 14:18:09,995 - DEBUG - PyPDF2 extraction issue: PdfFileReader is deprecated and was removed in PyPDF2 3.0.0. Use PdfReader instead.
+2025-05-19 14:18:16,623 - INFO - Loaded PDF file with pdfminer: approximately 115 pages
+2025-05-19 14:18:16,623 - INFO - Applying censoring method: regex
+2025-05-19 14:18:16,623 - INFO - Beginning text censoring
+2025-05-19 14:18:16,623 - DEBUG - Censoring company names
+2025-05-19 14:18:16,627 - DEBUG - Censoring email addresses
+2025-05-19 14:18:16,637 - DEBUG - Censoring domain names
+2025-05-19 14:18:16,653 - DEBUG - Censoring API keys and secrets
+2025-05-19 14:18:16,701 - DEBUG - Censoring credit card numbers
+2025-05-19 14:18:16,736 - DEBUG - Censoring monetary values
+2025-05-19 14:18:16,843 - DEBUG - Censoring phone numbers
+2025-05-19 14:18:16,898 - DEBUG - Censoring ID numbers
+2025-05-19 14:18:16,946 - DEBUG - Censoring IP addresses
+2025-05-19 14:18:16,963 - DEBUG - Censoring physical addresses
+2025-05-19 14:18:16,997 - DEBUG - Censoring dates
+2025-05-19 14:18:17,028 - DEBUG - Censoring passwords and tokens
+2025-05-19 14:18:17,042 - INFO - Censoring complete: 437 replacements made
+2025-05-19 14:18:17,043 - INFO -   - domains: 117 replacements
+2025-05-19 14:18:17,043 - INFO -   - api_keys: 12 replacements
+2025-05-19 14:18:17,043 - INFO -   - phones: 10 replacements
+2025-05-19 14:18:17,043 - INFO -   - ids: 1 replacements
+2025-05-19 14:18:17,043 - INFO -   - ips: 5 replacements
+2025-05-19 14:18:17,043 - INFO -   - addresses: 288 replacements
+2025-05-19 14:18:17,043 - INFO -   - money: 4 replacements
+2025-05-19 14:18:17,043 - DEBUG - Text length change: 243590 -> 238536 (-5054 diff)
+2025-05-19 14:18:17,043 - INFO - Applying censoring method: offline_model
+2025-05-19 14:18:17,043 - INFO - Beginning text censoring with Presidio
+2025-05-19 14:18:17,044 - INFO - Checking for model en_core_web_lg in C:\Users\Nof\Desktop\Anonimizer\models
+2025-05-19 14:18:17,044 - INFO - Model found in custom location: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 14:18:18,818 - INFO - Using model from: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 14:18:20,705 - DEBUG - Analyzing text for PII entities
+2025-05-19 14:18:59,049 - DEBUG - Anonymizing identified entities
+2025-05-19 14:18:59,861 - INFO - Censoring complete: 189 replacements made
+2025-05-19 14:18:59,861 - INFO -   - PERSON: 78 replacements
+2025-05-19 14:18:59,861 - INFO -   - DATE_TIME: 37 replacements
+2025-05-19 14:18:59,862 - INFO -   - LOCATION: 51 replacements
+2025-05-19 14:18:59,862 - INFO -   - NRP: 13 replacements
+2025-05-19 14:18:59,862 - INFO -   - US_DRIVER_LICENSE: 5 replacements
+2025-05-19 14:18:59,862 - INFO -   - URL: 5 replacements
+2025-05-19 14:18:59,862 - DEBUG - Text length change: 238536 -> 236721 (-1815 diff)
+2025-05-19 14:18:59,866 - INFO - Saving censored content
+2025-05-19 14:18:59,866 - INFO - Saving file to: output.pdf
+2025-05-19 14:18:59,867 - ERROR - Direct PDF writing not supported. PDF requires specialized libraries for creation.
+2025-05-19 14:18:59,867 - ERROR - Error saving file to output.pdf: Direct PDF writing not supported
+Traceback (most recent call last):
+  File "C:\Users\Nof\Desktop\Anonimizer\helpers\file_handler.py", line 447, in save_file
+    raise ValueError("Direct PDF writing not supported")
+ValueError: Direct PDF writing not supported
+2025-05-19 14:18:59,868 - ERROR - Error processing file: Direct PDF writing not supported
+Traceback (most recent call last):
+  File "C:\Users\Nof\Desktop\Anonimizer\helpers\file_handler.py", line 545, in process_file
+    save_file(censored_content, output_path, format_type, metadata, logger)
+  File "C:\Users\Nof\Desktop\Anonimizer\helpers\file_handler.py", line 447, in save_file
+    raise ValueError("Direct PDF writing not supported")
+ValueError: Direct PDF writing not supported
+2025-05-19 14:18:59,869 - ERROR - Error: Direct PDF writing not supported

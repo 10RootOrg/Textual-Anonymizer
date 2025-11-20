@@ -1,0 +1,985 @@
+2025-05-19 15:06:38,210 - INFO - Starting company information censor
+2025-05-19 15:06:38,210 - DEBUG - Log file created at: C:\Users\Nof\Desktop\Anonimizer\logs\censor_20250519_150638.log
+2025-05-19 15:06:38,210 - INFO - Loading configuration
+2025-05-19 15:06:38,210 - DEBUG - Loading config from: C:\Users\Nof\Desktop\Anonimizer\config.json5
+2025-05-19 15:06:38,210 - DEBUG - Config loaded: 1 keywords, type: ['regex', 'offline_model']
+2025-05-19 15:06:38,210 - INFO - Configuration loaded: 1 keywords found
+2025-05-19 15:06:38,210 - DEBUG - Parsing command line arguments
+2025-05-19 15:06:38,226 - INFO - Input file: tests\complex.docx
+2025-05-19 15:06:38,226 - INFO - Output file: output.docx
+2025-05-19 15:06:39,449 - INFO - Processing DOCX file with format preservation: tests\complex.docx
+2025-05-19 15:06:39,463 - INFO - Checking for model en_core_web_lg in C:\Users\Nof\Desktop\Anonimizer\models
+2025-05-19 15:06:39,463 - INFO - Model found in custom location: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 15:06:40,752 - INFO - Creating NLP engine with model: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 15:06:42,012 - INFO - Beginning text censoring
+2025-05-19 15:06:42,012 - DEBUG - Censoring company names
+2025-05-19 15:06:42,012 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,012 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,012 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,020 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,020 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,020 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,020 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,020 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,020 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,026 - DEBUG - Censoring dates
+2025-05-19 15:06:42,026 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,026 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,026 - DEBUG - Text length change: 81 -> 81 (0 diff)
+2025-05-19 15:06:42,352 - INFO - Beginning text censoring
+2025-05-19 15:06:42,355 - DEBUG - Censoring company names
+2025-05-19 15:06:42,355 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,355 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,355 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,355 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,355 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,355 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,355 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,355 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,355 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,355 - DEBUG - Censoring dates
+2025-05-19 15:06:42,355 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,355 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,355 - DEBUG - Text length change: 37 -> 37 (0 diff)
+2025-05-19 15:06:42,364 - INFO - Beginning text censoring
+2025-05-19 15:06:42,366 - DEBUG - Censoring company names
+2025-05-19 15:06:42,366 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,366 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,366 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,366 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,366 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,366 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,366 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,366 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,366 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,366 - DEBUG - Censoring dates
+2025-05-19 15:06:42,366 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,366 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,366 - DEBUG - Text length change: 11 -> 11 (0 diff)
+2025-05-19 15:06:42,371 - INFO - Beginning text censoring
+2025-05-19 15:06:42,371 - DEBUG - Censoring company names
+2025-05-19 15:06:42,372 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,372 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,372 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,372 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,372 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,372 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,372 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,372 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,372 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,372 - DEBUG - Censoring dates
+2025-05-19 15:06:42,372 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,372 - INFO - Censoring complete: 1 replacements made
+2025-05-19 15:06:42,372 - INFO -   - addresses: 1 replacements
+2025-05-19 15:06:42,372 - DEBUG - Text length change: 44 -> 27 (-17 diff)
+2025-05-19 15:06:42,380 - INFO - Beginning text censoring
+2025-05-19 15:06:42,380 - DEBUG - Censoring company names
+2025-05-19 15:06:42,380 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,380 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,380 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,381 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,381 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,381 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,381 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,381 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,381 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,381 - DEBUG - Censoring dates
+2025-05-19 15:06:42,381 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,381 - INFO - Censoring complete: 4 replacements made
+2025-05-19 15:06:42,381 - INFO -   - emails: 2 replacements
+2025-05-19 15:06:42,381 - INFO -   - domains: 2 replacements
+2025-05-19 15:06:42,381 - DEBUG - Text length change: 40 -> 43 (3 diff)
+2025-05-19 15:06:42,388 - INFO - Beginning text censoring
+2025-05-19 15:06:42,388 - DEBUG - Censoring company names
+2025-05-19 15:06:42,388 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,388 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,388 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,388 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,388 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,388 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,388 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,388 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,388 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,388 - DEBUG - Censoring dates
+2025-05-19 15:06:42,388 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,388 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,389 - DEBUG - Text length change: 8 -> 8 (0 diff)
+2025-05-19 15:06:42,395 - INFO - Beginning text censoring
+2025-05-19 15:06:42,397 - DEBUG - Censoring company names
+2025-05-19 15:06:42,397 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,397 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,397 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,397 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,397 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,397 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,397 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,397 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,397 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,397 - DEBUG - Censoring dates
+2025-05-19 15:06:42,397 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,397 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,397 - DEBUG - Text length change: 268 -> 268 (0 diff)
+2025-05-19 15:06:42,416 - INFO - Beginning text censoring
+2025-05-19 15:06:42,416 - DEBUG - Censoring company names
+2025-05-19 15:06:42,416 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,416 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,416 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,416 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,417 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,417 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,417 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,417 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,417 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,417 - DEBUG - Censoring dates
+2025-05-19 15:06:42,417 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,417 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,417 - DEBUG - Text length change: 12 -> 12 (0 diff)
+2025-05-19 15:06:42,424 - INFO - Beginning text censoring
+2025-05-19 15:06:42,424 - DEBUG - Censoring company names
+2025-05-19 15:06:42,424 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,424 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,426 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,426 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,426 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,427 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,427 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,427 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,427 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,427 - DEBUG - Censoring dates
+2025-05-19 15:06:42,428 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,428 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,428 - DEBUG - Text length change: 443 -> 443 (0 diff)
+2025-05-19 15:06:42,451 - INFO - Beginning text censoring
+2025-05-19 15:06:42,451 - DEBUG - Censoring company names
+2025-05-19 15:06:42,451 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,451 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,451 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,451 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,451 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,451 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,451 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,451 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,451 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,451 - DEBUG - Censoring dates
+2025-05-19 15:06:42,451 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,451 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,451 - DEBUG - Text length change: 68 -> 68 (0 diff)
+2025-05-19 15:06:42,465 - INFO - Beginning text censoring
+2025-05-19 15:06:42,465 - DEBUG - Censoring company names
+2025-05-19 15:06:42,465 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,465 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,465 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,465 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,465 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,465 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,465 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,465 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,465 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,465 - DEBUG - Censoring dates
+2025-05-19 15:06:42,465 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,465 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,466 - DEBUG - Text length change: 6 -> 6 (0 diff)
+2025-05-19 15:06:42,472 - INFO - Beginning text censoring
+2025-05-19 15:06:42,472 - DEBUG - Censoring company names
+2025-05-19 15:06:42,472 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,472 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,472 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,472 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,472 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,472 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,472 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,472 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,472 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,473 - DEBUG - Censoring dates
+2025-05-19 15:06:42,473 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,473 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,473 - DEBUG - Text length change: 64 -> 64 (0 diff)
+2025-05-19 15:06:42,480 - INFO - Beginning text censoring
+2025-05-19 15:06:42,480 - DEBUG - Censoring company names
+2025-05-19 15:06:42,480 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,480 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,480 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,480 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,480 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,480 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,480 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,480 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,480 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,480 - DEBUG - Censoring dates
+2025-05-19 15:06:42,480 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,480 - INFO - Censoring complete: 1 replacements made
+2025-05-19 15:06:42,480 - INFO -   - dates: 1 replacements
+2025-05-19 15:06:42,485 - DEBUG - Text length change: 331 -> 324 (-7 diff)
+2025-05-19 15:06:42,504 - INFO - Beginning text censoring
+2025-05-19 15:06:42,504 - DEBUG - Censoring company names
+2025-05-19 15:06:42,504 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,504 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,504 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,504 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,504 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,504 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,504 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,504 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,504 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,504 - DEBUG - Censoring dates
+2025-05-19 15:06:42,504 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,504 - INFO - Censoring complete: 1 replacements made
+2025-05-19 15:06:42,504 - INFO -   - addresses: 1 replacements
+2025-05-19 15:06:42,504 - DEBUG - Text length change: 167 -> 158 (-9 diff)
+2025-05-19 15:06:42,521 - INFO - Beginning text censoring
+2025-05-19 15:06:42,521 - DEBUG - Censoring company names
+2025-05-19 15:06:42,521 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,521 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,521 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,521 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,521 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,521 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,521 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,521 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,521 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,521 - DEBUG - Censoring dates
+2025-05-19 15:06:42,521 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,521 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,521 - DEBUG - Text length change: 16 -> 16 (0 diff)
+2025-05-19 15:06:42,529 - INFO - Beginning text censoring
+2025-05-19 15:06:42,529 - DEBUG - Censoring company names
+2025-05-19 15:06:42,530 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,530 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,530 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,530 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,530 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,530 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,530 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,531 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,531 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,531 - DEBUG - Censoring dates
+2025-05-19 15:06:42,531 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,531 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,531 - DEBUG - Text length change: 233 -> 233 (0 diff)
+2025-05-19 15:06:42,544 - INFO - Beginning text censoring
+2025-05-19 15:06:42,545 - DEBUG - Censoring company names
+2025-05-19 15:06:42,545 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,545 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,545 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,546 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,546 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,546 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,546 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,546 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,546 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,546 - DEBUG - Censoring dates
+2025-05-19 15:06:42,546 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,546 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,546 - DEBUG - Text length change: 414 -> 414 (0 diff)
+2025-05-19 15:06:42,562 - INFO - Beginning text censoring
+2025-05-19 15:06:42,562 - DEBUG - Censoring company names
+2025-05-19 15:06:42,562 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,562 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,562 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,562 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,562 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,562 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,562 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,562 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,562 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,562 - DEBUG - Censoring dates
+2025-05-19 15:06:42,562 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,562 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,562 - DEBUG - Text length change: 6 -> 6 (0 diff)
+2025-05-19 15:06:42,570 - INFO - Beginning text censoring
+2025-05-19 15:06:42,570 - DEBUG - Censoring company names
+2025-05-19 15:06:42,570 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,570 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,570 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,570 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,570 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,570 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,570 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,570 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,570 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,570 - DEBUG - Censoring dates
+2025-05-19 15:06:42,570 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,570 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,570 - DEBUG - Text length change: 729 -> 729 (0 diff)
+2025-05-19 15:06:42,600 - INFO - Beginning text censoring
+2025-05-19 15:06:42,600 - DEBUG - Censoring company names
+2025-05-19 15:06:42,601 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,601 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,601 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,601 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,601 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,601 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,602 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,602 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,602 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,602 - DEBUG - Censoring dates
+2025-05-19 15:06:42,602 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,602 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,602 - DEBUG - Text length change: 225 -> 225 (0 diff)
+2025-05-19 15:06:42,614 - INFO - Beginning text censoring
+2025-05-19 15:06:42,614 - DEBUG - Censoring company names
+2025-05-19 15:06:42,614 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,614 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,614 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,614 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,614 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,616 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,616 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,616 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,616 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,616 - DEBUG - Censoring dates
+2025-05-19 15:06:42,616 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,616 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,616 - DEBUG - Text length change: 153 -> 153 (0 diff)
+2025-05-19 15:06:42,626 - INFO - Beginning text censoring
+2025-05-19 15:06:42,626 - DEBUG - Censoring company names
+2025-05-19 15:06:42,626 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,626 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,626 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,626 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,626 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,626 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,626 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,626 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,626 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,626 - DEBUG - Censoring dates
+2025-05-19 15:06:42,626 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,626 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,626 - DEBUG - Text length change: 27 -> 27 (0 diff)
+2025-05-19 15:06:42,633 - INFO - Beginning text censoring
+2025-05-19 15:06:42,633 - DEBUG - Censoring company names
+2025-05-19 15:06:42,633 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,633 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,633 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,633 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,633 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,633 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,633 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,633 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,633 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,633 - DEBUG - Censoring dates
+2025-05-19 15:06:42,633 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,633 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,633 - DEBUG - Text length change: 199 -> 199 (0 diff)
+2025-05-19 15:06:42,649 - INFO - Beginning text censoring
+2025-05-19 15:06:42,649 - DEBUG - Censoring company names
+2025-05-19 15:06:42,649 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,649 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,649 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,649 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,649 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,649 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,649 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,649 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,649 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,649 - DEBUG - Censoring dates
+2025-05-19 15:06:42,649 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,649 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,649 - DEBUG - Text length change: 291 -> 291 (0 diff)
+2025-05-19 15:06:42,670 - INFO - Beginning text censoring
+2025-05-19 15:06:42,670 - DEBUG - Censoring company names
+2025-05-19 15:06:42,670 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,670 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,670 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,670 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,670 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,670 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,670 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,670 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,670 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,671 - DEBUG - Censoring dates
+2025-05-19 15:06:42,671 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,671 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,671 - DEBUG - Text length change: 263 -> 263 (0 diff)
+2025-05-19 15:06:42,685 - INFO - Beginning text censoring
+2025-05-19 15:06:42,685 - DEBUG - Censoring company names
+2025-05-19 15:06:42,685 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,685 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,686 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,686 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,686 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,686 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,686 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,686 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,686 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,686 - DEBUG - Censoring dates
+2025-05-19 15:06:42,686 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,686 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,686 - DEBUG - Text length change: 16 -> 16 (0 diff)
+2025-05-19 15:06:42,687 - INFO - Beginning text censoring
+2025-05-19 15:06:42,691 - DEBUG - Censoring company names
+2025-05-19 15:06:42,691 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,691 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,691 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,692 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,692 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,692 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,692 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,693 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,693 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,693 - DEBUG - Censoring dates
+2025-05-19 15:06:42,693 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,693 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,693 - DEBUG - Text length change: 631 -> 631 (0 diff)
+2025-05-19 15:06:42,718 - INFO - Beginning text censoring
+2025-05-19 15:06:42,718 - DEBUG - Censoring company names
+2025-05-19 15:06:42,718 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,718 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,718 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,718 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,718 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,718 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,718 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,718 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,718 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,718 - DEBUG - Censoring dates
+2025-05-19 15:06:42,718 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,724 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,724 - DEBUG - Text length change: 360 -> 360 (0 diff)
+2025-05-19 15:06:42,739 - INFO - Beginning text censoring
+2025-05-19 15:06:42,739 - DEBUG - Censoring company names
+2025-05-19 15:06:42,739 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,739 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,739 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,739 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,739 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,739 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,739 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,739 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,739 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,739 - DEBUG - Censoring dates
+2025-05-19 15:06:42,744 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,744 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,744 - DEBUG - Text length change: 377 -> 377 (0 diff)
+2025-05-19 15:06:42,759 - INFO - Beginning text censoring
+2025-05-19 15:06:42,759 - DEBUG - Censoring company names
+2025-05-19 15:06:42,759 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,759 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,759 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,759 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,759 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,759 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,759 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,759 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,759 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,759 - DEBUG - Censoring dates
+2025-05-19 15:06:42,759 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,759 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,759 - DEBUG - Text length change: 58 -> 58 (0 diff)
+2025-05-19 15:06:42,769 - INFO - Beginning text censoring
+2025-05-19 15:06:42,769 - DEBUG - Censoring company names
+2025-05-19 15:06:42,770 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,770 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,770 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,770 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,770 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,771 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,771 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,771 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,771 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,771 - DEBUG - Censoring dates
+2025-05-19 15:06:42,771 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,771 - INFO - Censoring complete: 1 replacements made
+2025-05-19 15:06:42,771 - INFO -   - addresses: 1 replacements
+2025-05-19 15:06:42,771 - DEBUG - Text length change: 318 -> 281 (-37 diff)
+2025-05-19 15:06:42,784 - INFO - Beginning text censoring
+2025-05-19 15:06:42,785 - DEBUG - Censoring company names
+2025-05-19 15:06:42,785 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,785 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,785 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,785 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,785 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,785 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,785 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,785 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,785 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,786 - DEBUG - Censoring dates
+2025-05-19 15:06:42,786 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,786 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,786 - DEBUG - Text length change: 65 -> 65 (0 diff)
+2025-05-19 15:06:42,793 - INFO - Beginning text censoring
+2025-05-19 15:06:42,793 - DEBUG - Censoring company names
+2025-05-19 15:06:42,793 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,793 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,793 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,793 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,793 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,793 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,793 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,793 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,793 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,793 - DEBUG - Censoring dates
+2025-05-19 15:06:42,793 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,793 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,793 - DEBUG - Text length change: 25 -> 25 (0 diff)
+2025-05-19 15:06:42,801 - INFO - Beginning text censoring
+2025-05-19 15:06:42,801 - DEBUG - Censoring company names
+2025-05-19 15:06:42,801 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,801 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,801 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,801 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,801 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,801 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,801 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,801 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,801 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,805 - DEBUG - Censoring dates
+2025-05-19 15:06:42,805 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,805 - INFO - Censoring complete: 1 replacements made
+2025-05-19 15:06:42,805 - INFO -   - addresses: 1 replacements
+2025-05-19 15:06:42,805 - DEBUG - Text length change: 759 -> 750 (-9 diff)
+2025-05-19 15:06:42,841 - INFO - Beginning text censoring
+2025-05-19 15:06:42,841 - DEBUG - Censoring company names
+2025-05-19 15:06:42,841 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,841 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,842 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,842 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,842 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,842 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,842 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,842 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,842 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,842 - DEBUG - Censoring dates
+2025-05-19 15:06:42,843 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,843 - INFO - Censoring complete: 1 replacements made
+2025-05-19 15:06:42,844 - INFO -   - addresses: 1 replacements
+2025-05-19 15:06:42,844 - DEBUG - Text length change: 217 -> 205 (-12 diff)
+2025-05-19 15:06:42,854 - INFO - Beginning text censoring
+2025-05-19 15:06:42,854 - DEBUG - Censoring company names
+2025-05-19 15:06:42,854 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,854 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,854 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,860 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,860 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,860 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,860 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,861 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,861 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,861 - DEBUG - Censoring dates
+2025-05-19 15:06:42,861 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,861 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,861 - DEBUG - Text length change: 575 -> 575 (0 diff)
+2025-05-19 15:06:42,882 - INFO - Beginning text censoring
+2025-05-19 15:06:42,882 - DEBUG - Censoring company names
+2025-05-19 15:06:42,882 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,882 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,882 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,882 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,882 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,882 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,882 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,882 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,882 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,882 - DEBUG - Censoring dates
+2025-05-19 15:06:42,882 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,882 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,882 - DEBUG - Text length change: 28 -> 28 (0 diff)
+2025-05-19 15:06:42,896 - INFO - Beginning text censoring
+2025-05-19 15:06:42,896 - DEBUG - Censoring company names
+2025-05-19 15:06:42,896 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,896 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,896 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,897 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,897 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,897 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,897 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,897 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,897 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,897 - DEBUG - Censoring dates
+2025-05-19 15:06:42,897 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,898 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,898 - DEBUG - Text length change: 409 -> 409 (0 diff)
+2025-05-19 15:06:42,919 - INFO - Beginning text censoring
+2025-05-19 15:06:42,919 - DEBUG - Censoring company names
+2025-05-19 15:06:42,919 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,919 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,919 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,919 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,919 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,919 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,919 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,919 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,919 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,919 - DEBUG - Censoring dates
+2025-05-19 15:06:42,919 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,919 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,919 - DEBUG - Text length change: 80 -> 80 (0 diff)
+2025-05-19 15:06:42,935 - INFO - Beginning text censoring
+2025-05-19 15:06:42,935 - DEBUG - Censoring company names
+2025-05-19 15:06:42,935 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,935 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,935 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,935 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,935 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,935 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,935 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,935 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,935 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,935 - DEBUG - Censoring dates
+2025-05-19 15:06:42,935 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,935 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,935 - DEBUG - Text length change: 174 -> 174 (0 diff)
+2025-05-19 15:06:42,967 - INFO - Beginning text censoring
+2025-05-19 15:06:42,967 - DEBUG - Censoring company names
+2025-05-19 15:06:42,967 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,967 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,967 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,967 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,967 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,967 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,967 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,967 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,967 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,967 - DEBUG - Censoring dates
+2025-05-19 15:06:42,967 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,967 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,967 - DEBUG - Text length change: 231 -> 231 (0 diff)
+2025-05-19 15:06:42,982 - INFO - Beginning text censoring
+2025-05-19 15:06:42,982 - DEBUG - Censoring company names
+2025-05-19 15:06:42,982 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,982 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,982 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,982 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,982 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,982 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,982 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,982 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,982 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,982 - DEBUG - Censoring dates
+2025-05-19 15:06:42,982 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,982 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,987 - DEBUG - Text length change: 143 -> 143 (0 diff)
+2025-05-19 15:06:42,998 - INFO - Beginning text censoring
+2025-05-19 15:06:42,998 - DEBUG - Censoring company names
+2025-05-19 15:06:42,998 - DEBUG - Censoring email addresses
+2025-05-19 15:06:42,998 - DEBUG - Censoring domain names
+2025-05-19 15:06:42,998 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:42,998 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:42,998 - DEBUG - Censoring monetary values
+2025-05-19 15:06:42,998 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:42,998 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:42,998 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:42,998 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:42,998 - DEBUG - Censoring dates
+2025-05-19 15:06:42,998 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:42,998 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:42,998 - DEBUG - Text length change: 118 -> 118 (0 diff)
+2025-05-19 15:06:43,010 - INFO - Beginning text censoring
+2025-05-19 15:06:43,010 - DEBUG - Censoring company names
+2025-05-19 15:06:43,010 - DEBUG - Censoring email addresses
+2025-05-19 15:06:43,010 - DEBUG - Censoring domain names
+2025-05-19 15:06:43,010 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:43,010 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:43,010 - DEBUG - Censoring monetary values
+2025-05-19 15:06:43,010 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:43,010 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:43,010 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:43,010 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:43,010 - DEBUG - Censoring dates
+2025-05-19 15:06:43,010 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:43,010 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:43,010 - DEBUG - Text length change: 11 -> 11 (0 diff)
+2025-05-19 15:06:43,019 - INFO - Beginning text censoring
+2025-05-19 15:06:43,020 - DEBUG - Censoring company names
+2025-05-19 15:06:43,020 - DEBUG - Censoring email addresses
+2025-05-19 15:06:43,020 - DEBUG - Censoring domain names
+2025-05-19 15:06:43,020 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:43,020 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:43,020 - DEBUG - Censoring monetary values
+2025-05-19 15:06:43,020 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:43,020 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:43,020 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:43,020 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:43,020 - DEBUG - Censoring dates
+2025-05-19 15:06:43,020 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:43,020 - INFO - Censoring complete: 2 replacements made
+2025-05-19 15:06:43,020 - INFO -   - emails: 1 replacements
+2025-05-19 15:06:43,021 - INFO -   - domains: 1 replacements
+2025-05-19 15:06:43,021 - DEBUG - Text length change: 171 -> 172 (1 diff)
+2025-05-19 15:06:43,036 - INFO - Beginning text censoring
+2025-05-19 15:06:43,036 - DEBUG - Censoring company names
+2025-05-19 15:06:43,037 - DEBUG - Censoring email addresses
+2025-05-19 15:06:43,037 - DEBUG - Censoring domain names
+2025-05-19 15:06:43,037 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:43,037 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:43,037 - DEBUG - Censoring monetary values
+2025-05-19 15:06:43,037 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:43,037 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:43,037 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:43,037 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:43,037 - DEBUG - Censoring dates
+2025-05-19 15:06:43,037 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:43,037 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:43,037 - DEBUG - Text length change: 68 -> 68 (0 diff)
+2025-05-19 15:06:43,044 - INFO - Beginning text censoring
+2025-05-19 15:06:43,044 - DEBUG - Censoring company names
+2025-05-19 15:06:43,044 - DEBUG - Censoring email addresses
+2025-05-19 15:06:43,044 - DEBUG - Censoring domain names
+2025-05-19 15:06:43,044 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:43,044 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:43,044 - DEBUG - Censoring monetary values
+2025-05-19 15:06:43,044 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:43,044 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:43,044 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:43,044 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:43,044 - DEBUG - Censoring dates
+2025-05-19 15:06:43,044 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:43,044 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:43,044 - DEBUG - Text length change: 210 -> 210 (0 diff)
+2025-05-19 15:06:43,059 - INFO - Beginning text censoring
+2025-05-19 15:06:43,059 - DEBUG - Censoring company names
+2025-05-19 15:06:43,059 - DEBUG - Censoring email addresses
+2025-05-19 15:06:43,059 - DEBUG - Censoring domain names
+2025-05-19 15:06:43,059 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:43,059 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:43,059 - DEBUG - Censoring monetary values
+2025-05-19 15:06:43,059 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:43,059 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:43,059 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:43,059 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:43,059 - DEBUG - Censoring dates
+2025-05-19 15:06:43,059 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:43,059 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:43,059 - DEBUG - Text length change: 69 -> 69 (0 diff)
+2025-05-19 15:06:43,074 - INFO - Beginning text censoring
+2025-05-19 15:06:43,074 - DEBUG - Censoring company names
+2025-05-19 15:06:43,074 - DEBUG - Censoring email addresses
+2025-05-19 15:06:43,074 - DEBUG - Censoring domain names
+2025-05-19 15:06:43,074 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:43,074 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:43,074 - DEBUG - Censoring monetary values
+2025-05-19 15:06:43,074 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:43,074 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:43,074 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:43,074 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:43,074 - DEBUG - Censoring dates
+2025-05-19 15:06:43,074 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:43,074 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:43,074 - DEBUG - Text length change: 119 -> 119 (0 diff)
+2025-05-19 15:06:43,088 - INFO - Beginning text censoring
+2025-05-19 15:06:43,088 - DEBUG - Censoring company names
+2025-05-19 15:06:43,088 - DEBUG - Censoring email addresses
+2025-05-19 15:06:43,088 - DEBUG - Censoring domain names
+2025-05-19 15:06:43,088 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:43,088 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:43,088 - DEBUG - Censoring monetary values
+2025-05-19 15:06:43,088 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:43,088 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:43,088 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:43,088 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:43,088 - DEBUG - Censoring dates
+2025-05-19 15:06:43,089 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:43,089 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:43,089 - DEBUG - Text length change: 66 -> 66 (0 diff)
+2025-05-19 15:06:43,099 - INFO - Beginning text censoring
+2025-05-19 15:06:43,099 - DEBUG - Censoring company names
+2025-05-19 15:06:43,099 - DEBUG - Censoring email addresses
+2025-05-19 15:06:43,099 - DEBUG - Censoring domain names
+2025-05-19 15:06:43,099 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:43,099 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:43,099 - DEBUG - Censoring monetary values
+2025-05-19 15:06:43,099 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:43,100 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:43,100 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:43,100 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:43,100 - DEBUG - Censoring dates
+2025-05-19 15:06:43,100 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:43,100 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:43,100 - DEBUG - Text length change: 227 -> 227 (0 diff)
+2025-05-19 15:06:43,118 - INFO - Beginning text censoring
+2025-05-19 15:06:43,118 - DEBUG - Censoring company names
+2025-05-19 15:06:43,118 - DEBUG - Censoring email addresses
+2025-05-19 15:06:43,120 - DEBUG - Censoring domain names
+2025-05-19 15:06:43,120 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:43,120 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:43,120 - DEBUG - Censoring monetary values
+2025-05-19 15:06:43,121 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:43,121 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:43,121 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:43,121 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:43,121 - DEBUG - Censoring dates
+2025-05-19 15:06:43,121 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:43,122 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:43,122 - DEBUG - Text length change: 403 -> 403 (0 diff)
+2025-05-19 15:06:43,144 - INFO - Beginning text censoring
+2025-05-19 15:06:43,145 - DEBUG - Censoring company names
+2025-05-19 15:06:43,145 - DEBUG - Censoring email addresses
+2025-05-19 15:06:43,145 - DEBUG - Censoring domain names
+2025-05-19 15:06:43,146 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:43,146 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:43,146 - DEBUG - Censoring monetary values
+2025-05-19 15:06:43,146 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:43,146 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:43,146 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:43,146 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:43,146 - DEBUG - Censoring dates
+2025-05-19 15:06:43,146 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:43,146 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:43,146 - DEBUG - Text length change: 135 -> 135 (0 diff)
+2025-05-19 15:06:43,156 - INFO - Beginning text censoring
+2025-05-19 15:06:43,156 - DEBUG - Censoring company names
+2025-05-19 15:06:43,157 - DEBUG - Censoring email addresses
+2025-05-19 15:06:43,157 - DEBUG - Censoring domain names
+2025-05-19 15:06:43,157 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:43,157 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:43,157 - DEBUG - Censoring monetary values
+2025-05-19 15:06:43,157 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:43,157 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:43,157 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:43,157 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:43,157 - DEBUG - Censoring dates
+2025-05-19 15:06:43,157 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:43,157 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:43,157 - DEBUG - Text length change: 192 -> 192 (0 diff)
+2025-05-19 15:06:43,169 - INFO - Beginning text censoring
+2025-05-19 15:06:43,170 - DEBUG - Censoring company names
+2025-05-19 15:06:43,170 - DEBUG - Censoring email addresses
+2025-05-19 15:06:43,170 - DEBUG - Censoring domain names
+2025-05-19 15:06:43,170 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:43,170 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:43,170 - DEBUG - Censoring monetary values
+2025-05-19 15:06:43,170 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:43,170 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:43,170 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:43,170 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:43,170 - DEBUG - Censoring dates
+2025-05-19 15:06:43,170 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:43,170 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:43,171 - DEBUG - Text length change: 135 -> 135 (0 diff)
+2025-05-19 15:06:43,180 - INFO - Beginning text censoring
+2025-05-19 15:06:43,181 - DEBUG - Censoring company names
+2025-05-19 15:06:43,181 - DEBUG - Censoring email addresses
+2025-05-19 15:06:43,181 - DEBUG - Censoring domain names
+2025-05-19 15:06:43,181 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:43,181 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:43,181 - DEBUG - Censoring monetary values
+2025-05-19 15:06:43,181 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:43,181 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:43,181 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:43,181 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:43,181 - DEBUG - Censoring dates
+2025-05-19 15:06:43,181 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:43,181 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:43,181 - DEBUG - Text length change: 41 -> 41 (0 diff)
+2025-05-19 15:06:43,189 - INFO - Beginning text censoring
+2025-05-19 15:06:43,189 - DEBUG - Censoring company names
+2025-05-19 15:06:43,189 - DEBUG - Censoring email addresses
+2025-05-19 15:06:43,189 - DEBUG - Censoring domain names
+2025-05-19 15:06:43,190 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:43,190 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:43,190 - DEBUG - Censoring monetary values
+2025-05-19 15:06:43,190 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:43,190 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:43,190 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:43,190 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:43,190 - DEBUG - Censoring dates
+2025-05-19 15:06:43,190 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:43,190 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:43,190 - DEBUG - Text length change: 610 -> 610 (0 diff)
+2025-05-19 15:06:43,215 - INFO - Beginning text censoring
+2025-05-19 15:06:43,215 - DEBUG - Censoring company names
+2025-05-19 15:06:43,215 - DEBUG - Censoring email addresses
+2025-05-19 15:06:43,215 - DEBUG - Censoring domain names
+2025-05-19 15:06:43,215 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:43,215 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:43,216 - DEBUG - Censoring monetary values
+2025-05-19 15:06:43,216 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:43,216 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:43,216 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:43,216 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:43,216 - DEBUG - Censoring dates
+2025-05-19 15:06:43,216 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:43,217 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:43,217 - DEBUG - Text length change: 541 -> 541 (0 diff)
+2025-05-19 15:06:43,238 - INFO - Beginning text censoring
+2025-05-19 15:06:43,238 - DEBUG - Censoring company names
+2025-05-19 15:06:43,238 - DEBUG - Censoring email addresses
+2025-05-19 15:06:43,238 - DEBUG - Censoring domain names
+2025-05-19 15:06:43,238 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:43,238 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:43,238 - DEBUG - Censoring monetary values
+2025-05-19 15:06:43,238 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:43,238 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:43,238 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:43,238 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:43,238 - DEBUG - Censoring dates
+2025-05-19 15:06:43,238 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:43,238 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:43,238 - DEBUG - Text length change: 3 -> 3 (0 diff)
+2025-05-19 15:06:43,242 - INFO - Beginning text censoring
+2025-05-19 15:06:43,242 - DEBUG - Censoring company names
+2025-05-19 15:06:43,242 - DEBUG - Censoring email addresses
+2025-05-19 15:06:43,242 - DEBUG - Censoring domain names
+2025-05-19 15:06:43,242 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:43,242 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:43,242 - DEBUG - Censoring monetary values
+2025-05-19 15:06:43,242 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:43,242 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:43,242 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:43,242 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:43,242 - DEBUG - Censoring dates
+2025-05-19 15:06:43,242 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:43,242 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:43,242 - DEBUG - Text length change: 177 -> 177 (0 diff)
+2025-05-19 15:06:43,255 - INFO - Beginning text censoring
+2025-05-19 15:06:43,255 - DEBUG - Censoring company names
+2025-05-19 15:06:43,255 - DEBUG - Censoring email addresses
+2025-05-19 15:06:43,255 - DEBUG - Censoring domain names
+2025-05-19 15:06:43,255 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:43,255 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:43,255 - DEBUG - Censoring monetary values
+2025-05-19 15:06:43,255 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:43,255 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:43,255 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:43,255 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:43,255 - DEBUG - Censoring dates
+2025-05-19 15:06:43,257 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:43,257 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:43,257 - DEBUG - Text length change: 36 -> 36 (0 diff)
+2025-05-19 15:06:43,264 - INFO - Beginning text censoring
+2025-05-19 15:06:43,264 - DEBUG - Censoring company names
+2025-05-19 15:06:43,264 - DEBUG - Censoring email addresses
+2025-05-19 15:06:43,265 - DEBUG - Censoring domain names
+2025-05-19 15:06:43,265 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:43,265 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:43,265 - DEBUG - Censoring monetary values
+2025-05-19 15:06:43,265 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:43,266 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:43,266 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:43,266 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:43,267 - DEBUG - Censoring dates
+2025-05-19 15:06:43,267 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:43,267 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:43,267 - DEBUG - Text length change: 643 -> 643 (0 diff)
+2025-05-19 15:06:43,294 - INFO - Beginning text censoring
+2025-05-19 15:06:43,294 - DEBUG - Censoring company names
+2025-05-19 15:06:43,294 - DEBUG - Censoring email addresses
+2025-05-19 15:06:43,294 - DEBUG - Censoring domain names
+2025-05-19 15:06:43,294 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:43,294 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:43,294 - DEBUG - Censoring monetary values
+2025-05-19 15:06:43,294 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:43,294 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:43,294 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:43,294 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:43,294 - DEBUG - Censoring dates
+2025-05-19 15:06:43,294 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:43,294 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:43,294 - DEBUG - Text length change: 48 -> 48 (0 diff)
+2025-05-19 15:06:43,304 - INFO - Beginning text censoring
+2025-05-19 15:06:43,304 - DEBUG - Censoring company names
+2025-05-19 15:06:43,304 - DEBUG - Censoring email addresses
+2025-05-19 15:06:43,304 - DEBUG - Censoring domain names
+2025-05-19 15:06:43,304 - DEBUG - Censoring API keys and secrets
+2025-05-19 15:06:43,304 - DEBUG - Censoring credit card numbers
+2025-05-19 15:06:43,304 - DEBUG - Censoring monetary values
+2025-05-19 15:06:43,304 - DEBUG - Censoring phone numbers
+2025-05-19 15:06:43,304 - DEBUG - Censoring ID numbers
+2025-05-19 15:06:43,304 - DEBUG - Censoring IP addresses
+2025-05-19 15:06:43,304 - DEBUG - Censoring physical addresses
+2025-05-19 15:06:43,306 - DEBUG - Censoring dates
+2025-05-19 15:06:43,306 - DEBUG - Censoring passwords and tokens
+2025-05-19 15:06:43,306 - INFO - Censoring complete: 0 replacements made
+2025-05-19 15:06:43,306 - DEBUG - Text length change: 694 -> 694 (0 diff)
+2025-05-19 15:06:43,393 - INFO - Saved censored DOCX with preserved formatting: output.docx
+2025-05-19 15:06:43,398 - INFO - Processing completed successfully

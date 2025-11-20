@@ -1,0 +1,27 @@
+2025-05-19 13:54:14,538 - INFO - Starting company information censor
+2025-05-19 13:54:14,538 - DEBUG - Log file created at: C:\Users\Nof\Desktop\Anonimizer\logs\censor_20250519_135414.log
+2025-05-19 13:54:14,538 - INFO - Loading configuration
+2025-05-19 13:54:14,538 - DEBUG - Loading config from: C:\Users\Nof\Desktop\Anonimizer\config.json5
+2025-05-19 13:54:14,546 - DEBUG - Config loaded: 1 keywords, type: ['regex', 'offline_model']
+2025-05-19 13:54:14,546 - INFO - Configuration loaded: 1 keywords found
+2025-05-19 13:54:14,546 - DEBUG - Parsing command line arguments
+2025-05-19 13:54:14,547 - INFO - Input file: tests\complex.pdf
+2025-05-19 13:54:14,548 - INFO - Output file: output.pdf
+2025-05-19 13:54:14,550 - ERROR - PyMuPDF not installed. Install with: pip install pymupdf
+2025-05-19 13:54:14,550 - ERROR - Error processing file: PyMuPDF required for PDF processing with format preservation
+Traceback (most recent call last):
+  File "C:\Users\Nof\Desktop\Anonimizer\helpers\file_handler.py", line 804, in process_pdf_with_preserving_format
+    import fitz  # PyMuPDF
+    ^^^^^^^^^^^
+ModuleNotFoundError: No module named 'fitz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Nof\Desktop\Anonimizer\helpers\file_handler.py", line 520, in process_file
+    return process_pdf_with_preserving_format(input_path, output_path, censor_types, keywords, model_name, logger)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nof\Desktop\Anonimizer\helpers\file_handler.py", line 809, in process_pdf_with_preserving_format
+    raise ImportError("PyMuPDF required for PDF processing with format preservation")
+ImportError: PyMuPDF required for PDF processing with format preservation
+2025-05-19 13:54:14,551 - ERROR - Error: PyMuPDF required for PDF processing with format preservation

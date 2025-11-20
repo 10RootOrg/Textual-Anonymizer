@@ -1,0 +1,55 @@
+2025-05-19 14:02:09,039 - INFO - Starting company information censor
+2025-05-19 14:02:09,039 - DEBUG - Log file created at: C:\Users\Nof\Desktop\Anonimizer\logs\censor_20250519_140209.log
+2025-05-19 14:02:09,039 - INFO - Loading configuration
+2025-05-19 14:02:09,039 - DEBUG - Loading config from: C:\Users\Nof\Desktop\Anonimizer\config.json5
+2025-05-19 14:02:09,046 - DEBUG - Config loaded: 1 keywords, type: ['regex', 'offline_model']
+2025-05-19 14:02:09,047 - INFO - Configuration loaded: 1 keywords found
+2025-05-19 14:02:09,047 - DEBUG - Parsing command line arguments
+2025-05-19 14:02:09,050 - INFO - Input file: tests\10root_PT_Report.md
+2025-05-19 14:02:09,052 - INFO - Output file: output.md
+2025-05-19 14:02:09,052 - INFO - Loading file: tests\10root_PT_Report.md
+2025-05-19 14:02:09,052 - DEBUG - File extension: .md, MIME type: None
+2025-05-19 14:02:09,070 - INFO - Loaded text file: 189 lines
+2025-05-19 14:02:09,070 - INFO - Applying censoring method: regex
+2025-05-19 14:02:09,073 - INFO - Beginning text censoring
+2025-05-19 14:02:09,073 - DEBUG - Censoring company names
+2025-05-19 14:02:09,073 - DEBUG - Censoring email addresses
+2025-05-19 14:02:09,074 - DEBUG - Censoring domain names
+2025-05-19 14:02:09,075 - DEBUG - Censoring API keys and secrets
+2025-05-19 14:02:09,078 - DEBUG - Censoring credit card numbers
+2025-05-19 14:02:09,082 - DEBUG - Censoring monetary values
+2025-05-19 14:02:09,087 - DEBUG - Censoring phone numbers
+2025-05-19 14:02:09,091 - DEBUG - Censoring ID numbers
+2025-05-19 14:02:09,093 - DEBUG - Censoring IP addresses
+2025-05-19 14:02:09,095 - DEBUG - Censoring physical addresses
+2025-05-19 14:02:09,098 - DEBUG - Censoring dates
+2025-05-19 14:02:09,101 - DEBUG - Censoring passwords and tokens
+2025-05-19 14:02:09,103 - INFO - Censoring complete: 110 replacements made
+2025-05-19 14:02:09,103 - INFO -   - company_names: 45 replacements
+2025-05-19 14:02:09,103 - INFO -   - emails: 8 replacements
+2025-05-19 14:02:09,103 - INFO -   - domains: 19 replacements
+2025-05-19 14:02:09,104 - INFO -   - api_keys: 2 replacements
+2025-05-19 14:02:09,104 - INFO -   - credit_cards: 4 replacements
+2025-05-19 14:02:09,104 - INFO -   - phones: 21 replacements
+2025-05-19 14:02:09,104 - INFO -   - ips: 3 replacements
+2025-05-19 14:02:09,104 - INFO -   - addresses: 2 replacements
+2025-05-19 14:02:09,104 - INFO -   - dates: 4 replacements
+2025-05-19 14:02:09,104 - INFO -   - money: 2 replacements
+2025-05-19 14:02:09,104 - DEBUG - Text length change: 7702 -> 7917 (215 diff)
+2025-05-19 14:02:09,104 - INFO - Applying censoring method: offline_model
+2025-05-19 14:02:10,410 - INFO - Beginning text censoring with spaCy
+2025-05-19 14:02:10,411 - INFO - Checking for model en_core_web_lg in C:\Users\Nof\Desktop\Anonimizer\models
+2025-05-19 14:02:10,411 - INFO - Model found in custom location: C:\Users\Nof\Desktop\Anonimizer\models\en_core_web_lg
+2025-05-19 14:02:14,460 - INFO - Censoring complete: 79 replacements made
+2025-05-19 14:02:14,461 - INFO -   - ORG: 28 replacements
+2025-05-19 14:02:14,461 - INFO -   - MONEY: 18 replacements
+2025-05-19 14:02:14,461 - INFO -   - PERSON: 17 replacements
+2025-05-19 14:02:14,461 - INFO -   - CARDINAL: 9 replacements
+2025-05-19 14:02:14,462 - INFO -   - PRODUCT: 2 replacements
+2025-05-19 14:02:14,462 - INFO -   - GPE: 4 replacements
+2025-05-19 14:02:14,462 - INFO -   - DATE: 1 replacements
+2025-05-19 14:02:14,467 - INFO - Saving censored content
+2025-05-19 14:02:14,467 - INFO - Saving file to: output.md
+2025-05-19 14:02:14,469 - INFO - Saved text file: output.md
+2025-05-19 14:02:14,469 - INFO - File processed successfully
+2025-05-19 14:02:14,470 - INFO - Processing completed successfully

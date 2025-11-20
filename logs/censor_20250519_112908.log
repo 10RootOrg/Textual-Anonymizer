@@ -1,0 +1,17 @@
+2025-05-19 11:29:08,834 - INFO - Starting company information censor
+2025-05-19 11:29:08,834 - DEBUG - Log file created at: C:\Users\Nof\Desktop\Anonimizer\logs\censor_20250519_112908.log
+2025-05-19 11:29:08,834 - INFO - Loading configuration
+2025-05-19 11:29:08,834 - DEBUG - Loading config from: C:\Users\Nof\Desktop\Anonimizer\config.json5
+2025-05-19 11:29:08,839 - DEBUG - Config loaded: 1 keywords, type: ['regex', 'offline_model']
+2025-05-19 11:29:08,839 - INFO - Configuration loaded: 1 keywords found
+2025-05-19 11:29:08,839 - DEBUG - Parsing command line arguments
+2025-05-19 11:29:08,840 - INFO - Input file: C:\Users\Nof\Desktop\Anonimizer\tests\complex.docx
+2025-05-19 11:29:08,840 - INFO - Output file: output.docx
+2025-05-19 11:29:08,852 - ERROR - Error processing file: No module named 'spacy'
+Traceback (most recent call last):
+  File "C:\Users\Nof\Desktop\Anonimizer\helpers\file_handler.py", line 503, in process_file
+    from censor.offline_model_censor import censor_text_presidio
+  File "C:\Users\Nof\Desktop\Anonimizer\censor\offline_model_censor.py", line 6, in <module>
+    import spacy
+ModuleNotFoundError: No module named 'spacy'
+2025-05-19 11:29:08,853 - ERROR - Error: No module named 'spacy'
